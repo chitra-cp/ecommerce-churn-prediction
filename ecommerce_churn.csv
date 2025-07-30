@@ -1,0 +1,1001 @@
+CustomerID,Age,Gender,Years_as_Customer,PreferredLoginDevice,PreferredPaymentMode,Total_Spend,Average_Transaction_Amount,HourSpendOnApp,NumberOfDeviceRegistered,PreferedOrderCat,Num_of_Purchases,NumberOfAddress,Num_of_Returns,Satisfaction_Score,Num_of_Support_Contacts,Complain,Last_Purchase_Days_Ago,CashbackAmount,Email_Opt_In,Promotion_Response,Churn
+50001,62,Female,5,Mobile Phone,Debit Card,5892.58,453.8,3,3,Laptop & Accessory,22,9,2,3,0,1,129,160,TRUE,Responded,1
+50002,65,Male,13,Phone,UPI,9025.47,22.9,3,4,Mobile,77,7,2,3,2,1,227,121,FALSE,Responded,1
+50003,30,Male,13,Phone,Debit Card,618.83,50.53,2,4,Mobile,71,6,5,2,2,1,283,120,FALSE,Responded,1
+50004,21,Male,3,Phone,Debit Card,9110.3,411.83,2,4,Laptop & Accessory,33,8,5,5,3,0,226,134,TRUE,Ignored,1
+50005,21,Male,15,Phone,CC,5390.88,101.19,,3,Mobile,43,3,3,5,0,0,242,130,FALSE,Unsubscribed,1
+50006,57,Female,19,Computer,Debit Card,255.19,417.78,3,5,Mobile Phone,85,2,5,4,1,1,130,139,FALSE,Unsubscribed,1
+50007,27,Male,3,Phone,Cash on Delivery,3512.55,316.18,2,3,Laptop & Accessory,77,4,0,1,3,0,61,121,TRUE,Unsubscribed,1
+50008,37,Male,4,Phone,CC,7270.9,63.61,3,3,Mobile,87,3,3,3,4,1,224,123,FALSE,Ignored,1
+50009,39,Male,1,Phone,E wallet,4935.49,173.8,,4,Mobile,21,2,9,4,2,1,126,127,TRUE,Responded,1
+50010,68,Male,17,Phone,Debit Card,9803.57,481.18,2,5,Mobile,34,2,6,2,1,0,171,123,TRUE,Unsubscribed,1
+50011,54,Female,15,Mobile Phone,Cash on Delivery,4283.84,96.55,2,3,Others,33,2,9,2,1,0,92,295,TRUE,Responded,1
+50012,41,Male,4,Mobile Phone,Debit Card,3333.69,212.58,3,4,Fashion,10,10,0,2,0,1,213,154,FALSE,Responded,1
+50013,24,Male,1,Phone,COD,8234.55,160.58,2,3,Mobile,60,2,2,5,1,1,276,134,FALSE,Ignored,1
+50014,42,Male,12,Phone,CC,5524.28,259.81,3,4,Mobile,4,1,5,2,4,1,212,134,FALSE,Ignored,1
+50015,42,Male,17,Mobile Phone,Credit Card,6855.03,222.85,3,4,Fashion,64,2,6,1,0,0,125,196,FALSE,Ignored,1
+50016,30,Male,9,Phone,UPI,8076.45,466.61,3,3,Mobile,63,5,5,3,0,1,304,121,FALSE,Unsubscribed,1
+50017,19,Female,10,Computer,Debit Card,6747.13,414.8,,4,Mobile,9,2,7,2,3,1,274,129,TRUE,Responded,1
+50018,56,Male,3,Mobile Phone,E wallet,4281.83,294.39,2,4,Laptop & Accessory,29,2,7,3,0,1,197,157,TRUE,Unsubscribed,1
+50019,57,Male,15,Computer,Debit Card,1335.48,173.58,3,5,Laptop & Accessory,14,2,7,4,3,1,4,161,FALSE,Responded,1
+50020,41,Female,11,Mobile Phone,Debit Card,5844.46,378.05,3,3,Mobile Phone,88,10,8,5,4,1,57,150,TRUE,Unsubscribed,1
+50021,64,Male,5,Mobile Phone,Debit Card,8984.59,298.9,3,5,Laptop & Accessory,72,5,1,2,1,1,323,162,TRUE,Responded,1
+50022,42,Female,10,Mobile Phone,Credit Card,4247.04,89.61,3,3,Fashion,13,2,0,1,4,0,199,203,FALSE,Responded,1
+50023,35,Male,14,Mobile Phone,E wallet,9116.18,162.9,2,3,Mobile Phone,3,2,8,2,0,1,193,117,TRUE,Responded,1
+50024,55,Female,12,Phone,Debit Card,5084.93,288.48,3,5,Laptop & Accessory,78,4,2,2,1,1,323,146,FALSE,Unsubscribed,1
+50025,43,Male,9,Computer,Debit Card,6246.33,352.98,2,5,Fashion,24,3,7,4,1,0,119,207,TRUE,Unsubscribed,1
+50026,31,Female,6,Phone,Credit Card,8346.59,167.05,2,3,Mobile Phone,60,8,5,1,2,0,35,142,TRUE,Unsubscribed,1
+50027,26,Male,9,Mobile Phone,E wallet,5689.51,456.01,3,3,Fashion,74,2,2,2,4,0,352,173,TRUE,Unsubscribed,0
+50028,27,Male,3,Phone,E wallet,1000.6,210.02,2,3,Laptop & Accessory,80,3,8,1,3,1,317,123,FALSE,Unsubscribed,0
+50029,38,Male,13,Phone,Debit Card,9811.7,83.09,2,3,Laptop & Accessory,12,9,9,5,4,0,128,123,FALSE,Ignored,0
+50030,69,Female,7,Computer,E wallet,2533.91,114.05,2,3,Fashion,10,2,6,1,4,0,31,190,FALSE,Unsubscribed,0
+50031,34,Male,17,Computer,COD,7134,107.41,2,3,Laptop & Accessory,63,2,7,4,1,0,274,143,FALSE,Ignored,0
+50032,69,Male,18,Mobile Phone,Credit Card,5100.62,124.56,2,4,Laptop & Accessory,66,3,5,1,4,0,325,161,TRUE,Responded,0
+50033,23,Female,4,Phone,CC,4839.85,198,3,4,Mobile,91,5,1,1,4,1,193,133,FALSE,Ignored,0
+50034,33,Male,5,Mobile Phone,E wallet,2515.01,237.82,3,4,Fashion,12,8,5,5,4,0,253,209,TRUE,Unsubscribed,0
+50035,65,Female,11,Computer,E wallet,7249.29,275.72,3,3,Mobile,96,7,4,5,2,0,196,122,FALSE,Responded,0
+50036,18,Male,18,Phone,CC,1216.6,469.63,3,3,Mobile,49,2,2,3,1,0,188,123,FALSE,Unsubscribed,0
+50037,36,Male,19,Computer,CC,9905.49,289.28,2,3,Mobile,59,7,2,1,3,0,102,120,FALSE,Responded,0
+50038,53,Male,5,Phone,CC,8469.2,98.03,,3,Mobile,76,2,2,2,0,0,216,127,TRUE,Ignored,0
+50039,42,Male,16,Mobile Phone,Debit Card,5391.64,233.12,2,2,Fashion,2,4,6,5,1,1,260,194,TRUE,Unsubscribed,0
+50040,67,Male,18,Computer,CC,4303.07,92.72,3,4,Mobile,73,2,1,5,2,1,360,126,TRUE,Responded,0
+50041,69,Female,14,Mobile Phone,Debit Card,2936,456.43,2,3,Others,26,4,3,4,3,0,263,299,TRUE,Unsubscribed,0
+50042,47,Male,17,Phone,Debit Card,5065.76,92.5,2,3,Mobile,31,5,9,1,0,0,202,125,TRUE,Responded,0
+50043,37,Female,9,Mobile Phone,Debit Card,8806.23,309.17,2,3,Fashion,34,3,6,1,1,0,273,194,FALSE,Responded,0
+50044,37,Female,14,Mobile Phone,Debit Card,2822.56,293.2,2,4,Laptop & Accessory,88,5,7,1,0,0,121,187,FALSE,Ignored,0
+50045,32,Male,12,Phone,Debit Card,5055.32,315.34,,3,Mobile,21,4,8,4,2,0,276,130,FALSE,Unsubscribed,0
+50046,57,Male,3,Phone,COD,2422.04,38.72,,3,Mobile,50,1,3,2,4,1,84,131,FALSE,Ignored,0
+50047,50,Female,18,Computer,COD,3437.78,151.77,3,5,Mobile,9,1,1,2,0,0,277,123,TRUE,Responded,1
+50048,19,Male,7,Computer,CC,1983.58,183.3,1,3,Mobile,65,5,8,2,1,0,234,121,FALSE,Responded,0
+50049,27,Male,3,Computer,CC,9906.34,462.35,,3,Laptop & Accessory,35,2,3,3,2,0,322,131,TRUE,Responded,0
+50050,50,Female,12,Mobile Phone,Debit Card,5757.82,308.21,1,3,Laptop & Accessory,31,5,7,4,2,1,287,150,FALSE,Unsubscribed,0
+50051,49,Female,15,Phone,Debit Card,7354.87,405.83,3,3,Mobile Phone,85,5,5,4,2,1,352,143,TRUE,Responded,0
+50052,28,Male,9,Phone,Debit Card,1072.67,253.05,2,3,Mobile,38,1,4,3,4,0,168,125,FALSE,Ignored,0
+50053,41,Male,18,Mobile Phone,Debit Card,3724.56,204.68,2,4,Mobile Phone,23,2,6,1,4,0,86,111,TRUE,Ignored,1
+50054,53,Female,8,Mobile Phone,E wallet,8937.13,246.96,3,3,Fashion,62,2,4,2,1,0,110,205,FALSE,Unsubscribed,0
+50055,29,Female,10,Phone,Debit Card,935.94,395.71,3,3,Mobile,43,2,3,5,2,0,37,123,FALSE,Responded,0
+50056,68,Female,12,Phone,Credit Card,1738.28,54.59,3,3,Mobile Phone,49,9,5,2,3,1,130,139,TRUE,Responded,0
+50057,46,Female,5,Phone,CC,6291.63,477.3,3,3,Mobile,87,3,7,4,2,0,4,123,TRUE,Responded,0
+50058,52,Female,11,Phone,E wallet,6265.61,305.74,,3,Mobile,21,2,2,3,1,1,171,131,TRUE,Ignored,1
+50059,18,Male,3,Phone,Credit Card,8398.45,101.25,2,4,Mobile Phone,44,3,8,3,2,0,21,137,FALSE,Unsubscribed,0
+50060,18,Female,8,Phone,Credit Card,9361.38,31.44,2,2,Laptop & Accessory,8,2,5,4,2,0,108,145,FALSE,Ignored,0
+50061,54,Female,8,Phone,CC,1505.67,72.76,,3,Mobile,66,2,7,4,3,0,86,128,TRUE,Responded,0
+50062,23,Female,1,Mobile Phone,Credit Card,2667.8,62.48,2,3,Others,46,2,3,3,1,0,209,290,TRUE,Unsubscribed,0
+50063,56,Male,5,Mobile Phone,Credit Card,4331.87,207.3,3,2,Others,31,9,9,4,2,0,251,287,FALSE,Ignored,0
+50064,58,Male,11,Computer,Debit Card,108.94,349.08,2,4,Laptop & Accessory,13,2,0,2,4,0,65,195,TRUE,Responded,0
+50065,35,Female,9,Mobile Phone,Credit Card,791.16,132.59,3,3,Grocery,70,4,2,3,0,0,137,237,TRUE,Unsubscribed,0
+50066,33,Male,13,Mobile Phone,Debit Card,2342.26,198.67,3,4,Others,57,1,8,3,3,0,105,300,TRUE,Ignored,0
+50067,22,Female,7,Phone,CC,4862.91,286.46,2,3,Mobile,22,2,5,5,3,0,261,123,TRUE,Responded,0
+50068,59,Male,3,Mobile Phone,Debit Card,2590.08,408.6,2,4,Laptop & Accessory,70,4,1,2,1,1,4,159,FALSE,Unsubscribed,1
+50069,60,Male,12,Computer,CC,8779.15,307.76,2,2,Mobile,17,5,6,2,4,0,323,121,FALSE,Ignored,0
+50070,49,Male,13,Computer,Credit Card,3310.3,100.75,3,4,Grocery,44,10,8,1,4,0,259,268,FALSE,Responded,0
+50071,19,Male,16,Phone,Debit Card,9253.77,129.65,3,2,Mobile Phone,24,2,1,5,4,1,262,136,FALSE,Unsubscribed,0
+50072,19,Female,9,Computer,Credit Card,9750.39,191.99,2,3,Laptop & Accessory,41,6,3,4,1,0,307,144,FALSE,Responded,0
+50073,57,Female,9,Computer,Credit Card,4553.63,248.66,2,3,Laptop & Accessory,38,3,7,3,1,0,182,153,TRUE,Responded,0
+50074,59,Male,14,Mobile Phone,Debit Card,2348.58,443.26,2,3,Laptop & Accessory,49,10,0,5,1,0,42,166,FALSE,Unsubscribed,0
+50075,53,Male,1,Mobile Phone,COD,2987.49,130.87,2,3,Laptop & Accessory,40,4,2,1,2,0,138,163,FALSE,Responded,0
+50076,56,Male,1,Computer,COD,7785.7,464.56,2,4,Laptop & Accessory,39,6,0,1,2,0,267,143,FALSE,Unsubscribed,0
+50077,29,Male,16,Computer,Debit Card,2806.16,388.99,3,3,Laptop & Accessory,44,2,5,2,3,1,284,168,FALSE,Unsubscribed,0
+50078,64,Male,18,Computer,Credit Card,3867.77,166.56,2,3,Mobile Phone,49,2,4,3,3,1,104,138,TRUE,Unsubscribed,0
+50079,36,Male,13,Phone,CC,4837.9,483.73,,3,Laptop & Accessory,1,9,5,1,0,1,162,127,TRUE,Ignored,0
+50080,45,Male,17,Mobile Phone,Credit Card,5793.6,190.7,3,3,Laptop & Accessory,10,8,6,4,0,1,85,167,TRUE,Responded,1
+50081,18,Female,12,Mobile Phone,E wallet,9961.39,342.92,2,3,Fashion,16,2,7,2,3,0,8,176,TRUE,Responded,1
+50082,32,Male,16,Phone,Debit Card,2398.88,468.91,2,2,Mobile,53,2,0,5,0,1,219,123,TRUE,Responded,0
+50083,53,Female,1,Computer,CC,3598.89,396.71,3,3,Mobile,54,2,7,3,2,0,87,122,FALSE,Unsubscribed,0
+50084,30,Male,15,Computer,Debit Card,2702.62,444.39,3,4,Laptop & Accessory,5,10,7,2,3,0,8,149,TRUE,Unsubscribed,0
+50085,60,Male,5,Mobile Phone,Credit Card,3675.02,89.22,3,3,Fashion,29,8,4,5,1,0,112,194,FALSE,Unsubscribed,0
+50086,38,Male,19,Mobile Phone,Credit Card,1097.96,325.33,2,5,Fashion,36,2,8,1,4,0,227,204,TRUE,Ignored,1
+50087,29,Male,18,Computer,Debit Card,3662.12,49.15,2,4,Fashion,21,2,8,1,1,0,303,185,FALSE,Ignored,0
+50088,22,Female,9,Computer,Debit Card,8889.86,490.18,2,3,Laptop & Accessory,7,2,4,2,0,0,240,200,FALSE,Responded,0
+50089,24,Male,5,Mobile Phone,Debit Card,3056.04,352.16,2,4,Fashion,42,6,3,1,1,0,111,225,FALSE,Responded,0
+50090,22,Female,11,Phone,COD,3782.15,61.07,2,3,Mobile,32,6,3,2,3,1,269,127,TRUE,Unsubscribed,1
+50091,65,Female,2,Mobile Phone,Debit Card,9450.29,398.57,3,3,Fashion,90,4,1,4,3,1,276,236,TRUE,Responded,0
+50092,21,Female,2,Computer,E wallet,7310.95,236.53,2,4,Laptop & Accessory,81,6,9,1,0,0,340,167,TRUE,Unsubscribed,1
+50093,30,Male,15,Phone,Cash on Delivery,5215.71,48.96,2,3,Mobile,69,1,6,3,3,0,23,121,TRUE,Responded,1
+50094,54,Female,19,Computer,Credit Card,7794.21,404.14,2,4,Fashion,14,7,2,1,1,0,335,189,TRUE,Unsubscribed,0
+50095,58,Female,4,Mobile Phone,E wallet,1319.48,27.27,2,3,Laptop & Accessory,34,3,4,3,4,0,325,159,FALSE,Responded,0
+50096,32,Male,17,Mobile Phone,Debit Card,4698.45,399.71,3,3,Laptop & Accessory,18,9,6,2,0,0,207,159,FALSE,Ignored,0
+50097,33,Female,6,Phone,CC,1270.54,291.37,2,4,Mobile,66,7,9,3,4,0,223,126,FALSE,Responded,0
+50098,38,Male,4,Computer,UPI,2412.82,11.33,2,3,Fashion,90,2,9,1,2,1,278,222,TRUE,Responded,0
+50099,53,Male,16,Mobile Phone,Debit Card,1504.49,228.21,3,3,Fashion,48,1,9,5,4,0,209,206,FALSE,Ignored,0
+50100,41,Male,14,Computer,Credit Card,3681.83,309.19,2,5,Laptop & Accessory,87,1,2,2,3,0,147,143,FALSE,Ignored,0
+50101,33,Male,9,Phone,Debit Card,3878.23,110.51,3,4,Mobile,43,4,5,3,1,0,353,122,TRUE,Responded,0
+50102,31,Male,8,Computer,E wallet,9478.35,125.7,2,3,Mobile Phone,23,5,8,1,4,0,82,0,FALSE,Ignored,0
+50103,39,Female,12,Computer,Credit Card,2714.84,41.71,2,3,Fashion,82,2,8,1,4,0,266,179,TRUE,Ignored,0
+50104,66,Female,9,Computer,E wallet,4777.05,338.17,3,3,Fashion,68,2,5,4,1,0,95,188,FALSE,Ignored,0
+50105,67,Male,9,Phone,CC,8132.66,105.31,2,4,Mobile,20,2,0,4,0,1,261,124,TRUE,Unsubscribed,1
+50106,23,Female,19,Phone,Debit Card,8174.61,431.93,2,4,Mobile,47,8,4,5,1,0,173,132,FALSE,Unsubscribed,0
+50107,59,Male,6,Mobile Phone,Cash on Delivery,7528.4,381.68,2,3,Others,30,2,8,2,2,0,162,292,FALSE,Ignored,0
+50108,53,Male,7,Phone,CC,2949.55,55.55,2,3,Mobile,69,9,2,4,4,0,144,123,TRUE,Unsubscribed,0
+50109,18,Female,6,Mobile Phone,Credit Card,5000.22,283.26,3,3,Others,85,4,9,5,1,0,255,295,FALSE,Ignored,0
+50110,49,Male,12,Phone,CC,1943.49,212.13,2,3,Mobile,31,6,5,3,4,1,195,124,TRUE,Responded,1
+50111,23,Female,16,Mobile Phone,E wallet,1965.16,391.58,3,3,Grocery,45,6,0,2,0,1,169,261,FALSE,Responded,0
+50112,48,Female,13,Phone,Debit Card,4414.83,334.47,,3,Mobile,80,8,9,2,4,0,145,127,FALSE,Responded,1
+50113,18,Male,5,Computer,Debit Card,7412.06,48.3,3,4,Others,34,2,4,4,4,1,78,291,TRUE,Responded,0
+50114,67,Female,4,Phone,Debit Card,5313.18,491.01,2,3,Mobile Phone,5,3,3,2,1,0,150,139,FALSE,Responded,0
+50115,68,Male,19,Phone,Debit Card,8878.16,135.89,3,4,Mobile Phone,84,1,7,5,0,1,332,137,FALSE,Ignored,1
+50116,54,Female,18,Phone,CC,8326,135.22,3,3,Mobile,38,8,2,2,2,0,82,122,TRUE,Ignored,0
+50117,52,Male,13,Computer,E wallet,412.89,159.35,3,3,Laptop & Accessory,53,1,2,1,1,0,112,145,TRUE,Responded,0
+50118,66,Male,13,Phone,Debit Card,5727.35,488.27,,3,Laptop & Accessory,65,3,0,5,1,0,58,131,FALSE,Ignored,0
+50119,47,Male,1,Phone,COD,6130.7,403.85,3,3,Laptop & Accessory,18,2,0,5,0,0,38,133,TRUE,Responded,0
+50120,21,Male,1,Mobile Phone,UPI,9619.59,52.17,3,2,Others,18,1,8,2,3,0,203,292,FALSE,Unsubscribed,0
+50121,52,Male,7,Computer,Credit Card,330.04,214.81,3,3,Fashion,40,10,6,2,4,0,362,237,TRUE,Ignored,0
+50122,60,Female,4,Phone,Debit Card,5357.93,429.09,,4,Mobile,19,2,2,4,1,0,259,129,TRUE,Responded,0
+50123,31,Male,10,Mobile Phone,Debit Card,2127.34,181.12,2,4,Laptop & Accessory,6,7,5,1,0,0,121,160,FALSE,Responded,0
+50124,66,Female,9,Phone,Credit Card,631.26,152.79,2,4,Mobile Phone,99,3,1,4,1,0,216,139,TRUE,Ignored,0
+50125,57,Male,4,Computer,Debit Card,5916.14,323.31,3,2,Laptop & Accessory,4,5,7,2,0,0,199,164,TRUE,Responded,0
+50126,39,Male,11,Computer,Credit Card,7748.78,190.16,3,3,Fashion,59,7,9,1,0,0,21,200,FALSE,Ignored,1
+50127,27,Female,13,Computer,Cash on Delivery,7771.17,89.19,3,3,Fashion,1,1,4,3,2,0,21,209,TRUE,Unsubscribed,0
+50128,18,Male,9,Phone,Debit Card,399.86,246.8,2,3,Mobile,36,2,0,4,0,0,190,123,FALSE,Ignored,0
+50129,28,Female,7,Mobile Phone,Debit Card,4128.77,407.73,2,2,Laptop & Accessory,26,4,3,2,0,1,359,165,TRUE,Ignored,0
+50130,68,Male,8,Mobile Phone,E wallet,540.65,423.82,2,3,Laptop & Accessory,85,3,5,5,3,0,50,169,FALSE,Unsubscribed,0
+50131,61,Female,19,Phone,Debit Card,2553.6,311.67,3,3,Laptop & Accessory,94,1,6,5,4,0,326,149,FALSE,Unsubscribed,0
+50132,41,Female,16,Phone,CC,2009.52,499.57,2,4,Mobile,66,1,5,2,2,1,337,126,TRUE,Unsubscribed,0
+50133,20,Male,5,Mobile Phone,Credit Card,2230.31,492.49,2,3,Others,15,1,5,3,4,0,245,294,FALSE,Responded,0
+50134,52,Male,12,Phone,Debit Card,3457.27,126.96,,3,Mobile,45,2,1,3,1,0,179,127,FALSE,Unsubscribed,0
+50135,53,Male,12,Computer,CC,2846.44,387.75,3,4,Mobile,5,1,0,1,2,0,208,135,TRUE,Ignored,1
+50136,48,Male,13,Computer,Debit Card,9626.57,100.11,,2,Mobile,71,2,7,5,2,0,296,128,FALSE,Responded,0
+50137,21,Male,1,Computer,Debit Card,3588.83,211.59,2,4,Laptop & Accessory,18,4,3,3,0,0,274,152,FALSE,Responded,0
+50138,36,Male,6,Phone,Cash on Delivery,8952.31,14.88,2,4,Laptop & Accessory,94,5,3,4,3,0,352,122,TRUE,Unsubscribed,0
+50139,64,Female,7,Mobile Phone,Cash on Delivery,1892.31,108.7,3,5,Grocery,62,4,1,3,0,1,27,269,FALSE,Unsubscribed,0
+50140,53,Male,14,Phone,Debit Card,7661.09,119.57,3,3,Mobile,57,3,4,4,3,0,30,135,FALSE,Unsubscribed,1
+50141,38,Male,6,Mobile Phone,Credit Card,707.32,494,3,4,Laptop & Accessory,2,3,8,5,2,0,140,166,FALSE,Responded,0
+50142,35,Male,19,Mobile Phone,Credit Card,4681.34,30.41,3,4,Laptop & Accessory,17,1,5,4,2,0,231,156,FALSE,Unsubscribed,0
+50143,68,Male,13,Computer,Debit Card,154.55,473.47,2,2,Laptop & Accessory,67,2,8,2,3,0,322,140,TRUE,Unsubscribed,0
+50144,45,Male,15,Mobile Phone,Credit Card,8121.88,420.71,3,3,Grocery,79,1,6,4,0,1,303,235,TRUE,Unsubscribed,0
+50145,32,Male,4,Phone,Debit Card,9509.81,21.01,2,3,Mobile,50,1,7,2,0,0,254,132,FALSE,Unsubscribed,0
+50146,59,Male,10,Mobile Phone,Credit Card,447.56,77,2,3,Others,25,1,5,3,2,1,236,290,FALSE,Unsubscribed,0
+50147,19,Male,6,Computer,Debit Card,9345.08,318.22,2,3,Fashion,70,2,0,2,0,1,49,218,FALSE,Responded,1
+50148,54,Male,2,Phone,CC,7761.15,181.89,3,3,Mobile,22,2,4,5,2,0,120,121,FALSE,Responded,0
+50149,28,Male,2,Mobile Phone,Credit Card,3652.73,177.27,3,3,Laptop & Accessory,9,5,3,5,2,0,231,165,TRUE,Ignored,0
+50150,40,Male,1,Phone,CC,9097.88,351.27,3,4,Mobile,73,2,8,4,1,0,52,132,TRUE,Ignored,0
+50151,61,Female,16,Computer,Credit Card,3032.95,497.43,0,3,Fashion,34,3,5,5,3,1,4,236,FALSE,Ignored,0
+50152,58,Female,11,Mobile Phone,Debit Card,4152.02,173.03,3,2,Fashion,70,8,6,1,3,0,338,220,TRUE,Responded,0
+50153,29,Female,13,Mobile Phone,Credit Card,1057.44,462.29,2,2,Laptop & Accessory,97,2,5,4,1,1,319,156,TRUE,Unsubscribed,0
+50154,20,Female,14,Computer,Debit Card,6603.7,366.94,2,3,Laptop & Accessory,1,2,5,1,1,0,5,164,FALSE,Unsubscribed,0
+50155,69,Male,4,Mobile Phone,Debit Card,393.05,425.02,3,3,Others,44,4,0,5,4,0,82,291,TRUE,Unsubscribed,0
+50156,34,Male,11,Mobile Phone,Credit Card,4900.56,259.33,2,3,Grocery,7,4,0,3,2,1,227,276,TRUE,Ignored,0
+50157,50,Male,10,Phone,Debit Card,6863.6,271.31,2,3,Laptop & Accessory,15,2,7,3,4,0,196,149,FALSE,Responded,0
+50158,18,Male,6,Computer,Debit Card,8230.25,277.77,2,3,Laptop & Accessory,38,2,7,5,2,0,50,146,TRUE,Ignored,0
+50159,56,Male,14,Mobile Phone,COD,1584.42,286.92,2,3,Laptop & Accessory,93,4,8,3,3,1,114,154,FALSE,Ignored,0
+50160,37,Male,9,Computer,Credit Card,7565.49,80.78,2,3,Laptop & Accessory,81,2,2,3,4,1,148,147,TRUE,Ignored,0
+50161,64,Female,18,Phone,Debit Card,7218.86,111.45,2,3,Mobile,54,2,1,5,2,0,303,121,FALSE,Unsubscribed,0
+50162,60,Male,14,Computer,Debit Card,5639.75,85.33,,3,Mobile,30,4,7,5,3,1,339,132,TRUE,Unsubscribed,1
+50163,69,Male,4,Mobile Phone,Debit Card,5887.98,103.58,2,3,Laptop & Accessory,83,10,6,1,3,0,296,157,FALSE,Unsubscribed,0
+50164,58,Male,1,Phone,CC,1003.58,335.83,2,3,Mobile,94,3,0,2,1,1,331,124,TRUE,Ignored,1
+50165,31,Female,15,Phone,Debit Card,6044.66,111.19,3,3,Mobile,4,2,0,1,1,0,126,133,FALSE,Ignored,0
+50166,48,Female,15,Computer,Debit Card,3877.07,440.41,2,3,Others,75,10,6,4,4,1,222,287,TRUE,Responded,0
+50167,42,Male,7,Phone,COD,8689.05,68.54,1,3,Laptop & Accessory,42,5,5,4,0,0,201,145,TRUE,Unsubscribed,0
+50168,20,Female,16,Computer,E wallet,3199.68,494.48,,3,Mobile,40,2,5,3,0,0,127,128,TRUE,Ignored,0
+50169,21,Male,6,Mobile Phone,E wallet,5808.29,10.7,2,4,Laptop & Accessory,97,2,7,4,3,1,99,158,FALSE,Responded,1
+50170,48,Male,1,Computer,CC,4323.06,423.5,2,3,Mobile,33,2,0,3,2,1,188,123,TRUE,Ignored,0
+50171,52,Female,8,Computer,E wallet,8774.99,10.98,3,3,Grocery,29,6,0,5,4,0,214,235,TRUE,Ignored,0
+50172,61,Male,8,Mobile Phone,Debit Card,2613.78,394.88,2,3,Mobile Phone,15,2,5,2,4,0,239,114,TRUE,Ignored,1
+50173,31,Male,18,Mobile Phone,E wallet,880.14,366.55,3,3,Fashion,96,1,5,5,4,0,6,180,FALSE,Responded,0
+50174,66,Male,1,Computer,Debit Card,7511.69,350.32,2,2,Mobile Phone,99,5,1,5,2,0,69,137,TRUE,Responded,0
+50175,58,Male,16,Mobile Phone,Credit Card,4187.68,181.93,2,5,Laptop & Accessory,63,6,5,5,3,0,37,155,FALSE,Responded,0
+50176,26,Male,12,Mobile Phone,Debit Card,5932.07,317.27,2,3,Grocery,62,2,1,3,2,0,125,260,TRUE,Unsubscribed,0
+50177,37,Female,12,Mobile Phone,Credit Card,361.25,303.71,3,4,Mobile Phone,68,2,5,3,4,0,40,112,FALSE,Responded,0
+50178,49,Male,19,Mobile Phone,Credit Card,9525.89,372.37,3,2,Laptop & Accessory,14,1,9,2,2,0,119,157,FALSE,Unsubscribed,0
+50179,26,Male,12,Mobile Phone,COD,8788.42,357.91,3,2,Laptop & Accessory,19,5,7,5,3,0,86,169,TRUE,Ignored,0
+50180,44,Male,7,Mobile Phone,Credit Card,6276.29,131.63,2,2,Fashion,82,1,4,2,0,0,250,196,FALSE,Unsubscribed,0
+50181,20,Female,8,Computer,Debit Card,268.6,357.7,2,3,Laptop & Accessory,62,8,7,3,4,0,165,157,TRUE,Responded,0
+50182,21,Male,4,Mobile Phone,Debit Card,3841.97,163.11,3,4,Laptop & Accessory,35,2,2,5,0,0,175,155,TRUE,Unsubscribed,0
+50183,62,Female,6,Mobile Phone,Debit Card,9790.09,198.9,2,4,Fashion,99,4,0,2,1,0,205,221,FALSE,Responded,0
+50184,32,Male,18,Computer,Debit Card,6845.17,151.01,2,5,Laptop & Accessory,84,3,3,4,0,1,206,157,TRUE,Ignored,0
+50185,50,Male,1,Phone,COD,1693.78,372.21,2,3,Mobile Phone,69,1,8,5,1,1,196,148,FALSE,Responded,0
+50186,22,Male,12,Mobile Phone,UPI,4659.91,418.99,3,4,Laptop & Accessory,76,4,2,4,2,0,174,164,TRUE,Responded,0
+50187,21,Male,2,Computer,Debit Card,9670.7,131.84,3,3,Fashion,22,2,2,4,1,0,41,152,FALSE,Unsubscribed,0
+50188,63,Male,19,Phone,Debit Card,5393.61,261.9,,3,Mobile,4,1,0,1,0,1,106,127,FALSE,Responded,0
+50189,29,Female,15,Computer,Debit Card,343.68,355.75,3,3,Fashion,35,7,3,5,3,0,185,219,TRUE,Responded,0
+50190,40,Male,19,Mobile Phone,Credit Card,6235.74,414.02,2,3,Grocery,84,2,0,2,3,1,287,271,TRUE,Unsubscribed,0
+50191,31,Female,10,Computer,Debit Card,2785.04,366.36,2,3,Mobile,91,1,7,2,0,0,338,125,TRUE,Unsubscribed,0
+50192,63,Female,7,Mobile Phone,Cash on Delivery,1078.57,58.6,2,4,Grocery,73,8,3,2,0,1,348,240,TRUE,Responded,0
+50193,29,Male,5,Phone,Credit Card,4088.79,345.2,2,4,Laptop & Accessory,79,3,7,4,1,0,324,149,TRUE,Responded,1
+50194,34,Female,12,Phone,Debit Card,5629.38,453.65,2,3,Mobile,36,2,1,5,0,1,283,125,TRUE,Unsubscribed,0
+50195,42,Female,18,Mobile Phone,COD,268.7,226.57,3,4,Laptop & Accessory,77,2,5,1,0,1,43,152,TRUE,Ignored,0
+50196,47,Male,1,Phone,Debit Card,5634.56,373.88,3,3,Laptop & Accessory,82,2,5,3,0,1,204,145,FALSE,Unsubscribed,0
+50197,39,Male,12,Mobile Phone,E wallet,5160.91,481.34,3,3,Laptop & Accessory,88,5,7,1,0,0,122,175,FALSE,Unsubscribed,0
+50198,64,Female,19,Mobile Phone,Credit Card,7959.69,350.04,3,2,Laptop & Accessory,82,8,0,2,4,0,148,151,FALSE,Responded,0
+50199,43,Male,9,Phone,CC,4293.14,151.97,2,5,Mobile,97,6,3,1,4,1,342,135,TRUE,Unsubscribed,1
+50200,34,Female,3,Mobile Phone,Credit Card,5579.16,231.52,3,3,Laptop & Accessory,50,2,3,4,3,0,101,158,FALSE,Unsubscribed,0
+50201,37,Female,19,Computer,Debit Card,7445.89,239.67,2,4,Fashion,12,2,6,2,1,0,53,189,TRUE,Ignored,0
+50202,51,Male,7,Computer,Credit Card,8981.74,426.03,2,4,Others,67,2,0,1,3,0,234,293,TRUE,Responded,0
+50203,58,Female,15,Mobile Phone,Credit Card,3862.34,484.45,2,3,Laptop & Accessory,23,5,1,1,3,1,242,152,FALSE,Responded,1
+50204,50,Male,12,Computer,E wallet,6056.17,300.67,2,4,Laptop & Accessory,69,4,7,3,1,0,237,147,TRUE,Ignored,0
+50205,54,Male,2,Mobile Phone,Debit Card,6976.65,47.69,2,3,Others,42,5,6,2,1,0,232,283,TRUE,Unsubscribed,0
+50206,24,Female,14,Computer,Debit Card,528.38,475.28,2,4,Laptop & Accessory,43,2,8,3,3,0,110,153,FALSE,Ignored,0
+50207,39,Male,14,Computer,E wallet,8027.53,497.07,3,3,Laptop & Accessory,16,1,7,2,0,1,222,163,TRUE,Unsubscribed,0
+50208,49,Female,2,Computer,Debit Card,3836.56,203.83,2,3,Laptop & Accessory,60,4,2,3,0,0,338,149,FALSE,Unsubscribed,0
+50209,31,Female,11,Mobile Phone,Debit Card,6735.37,414.66,2,3,Fashion,61,9,6,1,2,0,14,200,TRUE,Ignored,0
+50210,25,Male,14,Phone,UPI,4769.47,222.6,3,3,Laptop & Accessory,82,10,1,4,2,0,191,137,FALSE,Responded,0
+50211,42,Male,15,Mobile Phone,Credit Card,7053.16,350.78,2,5,Laptop & Accessory,78,3,8,3,2,1,322,175,TRUE,Responded,0
+50212,33,Male,1,Phone,UPI,7270.88,30.52,3,5,Mobile,96,2,4,2,3,1,119,121,TRUE,Unsubscribed,1
+50213,59,Male,12,Phone,UPI,1996.55,446.44,1,4,Mobile Phone,4,1,9,5,1,0,278,140,TRUE,Responded,0
+50214,36,Female,8,Mobile Phone,E wallet,6655.52,31.95,1,4,Laptop & Accessory,46,2,5,5,4,0,76,161,TRUE,Ignored,0
+50215,58,Female,4,Mobile Phone,E wallet,8528.1,117.83,2,3,Laptop & Accessory,26,2,8,3,1,0,341,162,TRUE,Ignored,0
+50216,33,Male,15,Mobile Phone,Credit Card,2432.12,288.2,3,3,Laptop & Accessory,52,8,2,1,4,0,202,163,FALSE,Ignored,0
+50217,29,Male,1,Mobile Phone,Debit Card,7606.02,442.5,3,4,Fashion,29,1,9,3,1,1,268,215,FALSE,Ignored,0
+50218,56,Female,9,Mobile Phone,Credit Card,6374.87,143.52,2,3,Fashion,83,2,1,4,1,1,136,171,TRUE,Ignored,0
+50219,65,Female,4,Mobile Phone,E wallet,9555.75,53.77,2,4,Laptop & Accessory,96,2,3,2,4,1,157,183,FALSE,Responded,0
+50220,47,Male,12,Mobile Phone,COD,2676.44,406.69,3,3,Fashion,24,1,1,5,0,0,144,181,FALSE,Unsubscribed,0
+50221,19,Male,2,Phone,Debit Card,1627.35,186.06,,3,Mobile,11,2,3,2,2,0,358,129,FALSE,Ignored,0
+50222,49,Male,7,Mobile Phone,Credit Card,3190,374.37,3,4,Laptop & Accessory,14,7,8,2,3,1,348,160,TRUE,Unsubscribed,0
+50223,62,Male,15,Computer,CC,2653.79,104.27,,3,Laptop & Accessory,78,4,8,3,3,0,150,130,FALSE,Unsubscribed,0
+50224,42,Female,5,Mobile Phone,Debit Card,7592.64,124.1,2,3,Grocery,14,3,7,1,0,0,282,260,TRUE,Ignored,0
+50225,42,Male,11,Computer,Debit Card,7357.78,183.49,3,3,Laptop & Accessory,84,2,9,2,0,0,217,146,TRUE,Unsubscribed,0
+50226,21,Male,4,Phone,COD,6729.88,394.48,,3,Mobile,66,1,4,1,3,1,202,127,FALSE,Responded,0
+50227,36,Female,16,Phone,CC,2242.15,469.79,3,3,Mobile,4,2,7,4,4,0,74,124,FALSE,Unsubscribed,0
+50228,65,Female,7,Mobile Phone,Credit Card,8631.89,395.73,3,3,Fashion,13,4,1,4,3,0,252,225,TRUE,Unsubscribed,0
+50229,21,Male,12,Mobile Phone,Credit Card,9570.06,13.81,2,2,Laptop & Accessory,9,5,3,1,1,1,130,160,FALSE,Ignored,0
+50230,60,Female,3,Computer,COD,5362.9,406.14,2,3,Laptop & Accessory,11,8,0,3,4,1,349,147,FALSE,Responded,0
+50231,30,Male,4,Mobile Phone,Debit Card,6528.79,321.85,2,3,Laptop & Accessory,7,2,0,3,0,0,121,153,TRUE,Ignored,0
+50232,56,Male,18,Mobile Phone,UPI,5056.85,401.28,3,4,Laptop & Accessory,53,4,3,3,3,0,232,168,FALSE,Ignored,0
+50233,53,Female,11,Computer,Cash on Delivery,2907.22,290.44,2,4,Mobile,32,2,8,5,0,1,293,122,TRUE,Responded,1
+50234,40,Female,1,Computer,Credit Card,2932.86,24.04,2,3,Laptop & Accessory,44,5,3,4,4,0,221,167,FALSE,Ignored,0
+50235,23,Male,7,Computer,Credit Card,3202.86,403.53,2,4,Fashion,96,5,1,4,1,0,44,197,TRUE,Unsubscribed,0
+50236,41,Male,2,Mobile Phone,Credit Card,1989.42,47.42,2,3,Laptop & Accessory,22,3,4,2,1,0,196,168,FALSE,Responded,0
+50237,61,Female,15,Phone,Debit Card,9029.04,180.64,2,2,Mobile,14,4,9,1,0,1,10,122,FALSE,Responded,0
+50238,50,Male,4,Computer,CC,8598.14,274.89,2,3,Mobile,72,2,6,5,4,0,164,126,TRUE,Ignored,0
+50239,29,Female,18,Phone,E wallet,4670.23,150.08,,3,Mobile,46,2,6,5,1,1,7,129,FALSE,Responded,1
+50240,58,Female,8,Phone,CC,3735.79,382.26,3,3,Mobile,29,7,6,2,1,0,231,135,FALSE,Ignored,0
+50241,38,Female,15,Computer,Credit Card,9396.88,487.32,1,3,Laptop & Accessory,83,3,1,1,1,0,82,153,FALSE,Unsubscribed,0
+50242,28,Male,12,Computer,E wallet,2301.5,236.66,2,3,Laptop & Accessory,30,2,1,3,4,0,86,194,TRUE,Ignored,1
+50243,61,Male,14,Mobile Phone,Cash on Delivery,5580.07,476.85,3,4,Fashion,62,7,8,2,1,0,126,205,FALSE,Ignored,0
+50244,55,Male,1,Mobile Phone,E wallet,639.53,459.35,3,4,Laptop & Accessory,27,3,7,3,4,1,204,164,TRUE,Responded,1
+50245,46,Male,1,Phone,Debit Card,1992.9,410.95,2,4,Mobile,51,1,0,3,0,1,297,127,TRUE,Responded,0
+50246,65,Female,19,Phone,Debit Card,6079.87,366.16,,2,Mobile,16,2,6,3,4,0,264,127,TRUE,Ignored,1
+50247,58,Male,18,Phone,Debit Card,6655.62,19.81,2,3,Mobile,47,10,6,3,0,0,28,122,TRUE,Unsubscribed,0
+50248,20,Male,10,Mobile Phone,Debit Card,5851.86,451.79,3,4,Laptop & Accessory,66,10,3,4,0,0,298,165,TRUE,Ignored,0
+50249,45,Male,6,Phone,Credit Card,8709.05,290.57,2,3,Mobile Phone,52,2,3,2,1,0,320,138,TRUE,Unsubscribed,0
+50250,37,Male,13,Mobile Phone,Debit Card,9934.71,74.47,3,3,Laptop & Accessory,26,2,8,5,0,0,347,153,TRUE,Ignored,0
+50251,43,Male,18,Phone,UPI,7662.23,348.79,2,4,Fashion,19,9,2,1,0,0,203,145,TRUE,Responded,0
+50252,41,Female,4,Phone,Debit Card,4704.41,143.23,2,3,Laptop & Accessory,40,5,8,4,2,0,229,149,TRUE,Unsubscribed,0
+50253,69,Female,4,Phone,Debit Card,8355.95,348.95,3,3,Mobile,49,5,1,2,2,0,294,125,FALSE,Ignored,0
+50254,64,Male,3,Computer,E wallet,1291.84,49.41,3,2,Laptop & Accessory,46,9,3,3,2,1,97,153,FALSE,Unsubscribed,1
+50255,38,Female,6,Mobile Phone,Debit Card,6864.38,487.78,3,3,Grocery,23,3,4,4,3,1,6,267,TRUE,Unsubscribed,0
+50256,47,Female,7,Phone,E wallet,5231.54,42.6,3,3,Laptop & Accessory,28,2,4,1,4,1,253,143,TRUE,Ignored,0
+50257,21,Male,9,Phone,COD,1862.85,435.18,3,3,Mobile,76,2,3,3,4,0,314,125,FALSE,Unsubscribed,0
+50258,53,Male,1,Computer,COD,9732.04,164.79,,3,Mobile,45,1,3,2,2,0,202,131,TRUE,Ignored,1
+50259,57,Female,13,Phone,CC,3450.53,153.62,2,3,Mobile,39,2,3,4,1,0,347,122,TRUE,Ignored,0
+50260,27,Male,7,Mobile Phone,Credit Card,6192.69,203.54,3,4,Fashion,1,2,4,3,2,0,44,176,TRUE,Unsubscribed,0
+50261,27,Male,8,Computer,COD,8798.08,388.55,2,3,Mobile,10,19,7,4,4,1,295,123,FALSE,Ignored,1
+50262,59,Female,10,Phone,Debit Card,5116.22,107.88,,3,Mobile,23,2,9,3,2,0,89,130,TRUE,Responded,0
+50263,41,Female,7,Mobile Phone,E wallet,1239.86,229.07,2,3,Laptop & Accessory,70,8,3,3,1,0,133,157,FALSE,Unsubscribed,0
+50264,21,Female,6,Phone,Debit Card,8205.52,249.51,3,3,Mobile,24,4,2,3,4,0,75,126,TRUE,Responded,0
+50265,64,Male,5,Phone,Debit Card,3596.82,454.69,2,3,Laptop & Accessory,71,3,1,4,0,1,218,142,FALSE,Responded,0
+50266,44,Male,8,Mobile Phone,Debit Card,9832.36,281.88,2,4,Grocery,87,2,2,5,1,0,125,243,FALSE,Responded,0
+50267,68,Female,16,Phone,CC,8849.87,322.94,3,4,Laptop & Accessory,88,7,3,1,3,0,310,134,FALSE,Responded,0
+50268,62,Male,4,Mobile Phone,Credit Card,8549.15,448.1,2,3,Others,66,5,9,4,2,0,176,294,FALSE,Responded,0
+50269,21,Female,8,Computer,E wallet,3626.91,173.34,3,3,Laptop & Accessory,56,10,2,2,4,0,28,165,FALSE,Responded,0
+50270,49,Female,9,Phone,Credit Card,7595.58,45.4,2,3,Laptop & Accessory,56,2,6,1,1,0,90,143,FALSE,Ignored,0
+50271,27,Male,19,Computer,CC,9864.66,396.37,3,3,Mobile,27,8,5,1,3,0,28,123,FALSE,Ignored,0
+50272,28,Female,15,Phone,UPI,5310.58,381.78,3,3,Laptop & Accessory,32,5,7,3,4,1,131,145,FALSE,Unsubscribed,0
+50273,45,Female,8,Phone,Debit Card,4760.25,168.91,2,4,Laptop & Accessory,20,2,6,2,4,1,319,145,TRUE,Responded,0
+50274,63,Female,3,Computer,Credit Card,245.19,474.5,3,3,Laptop & Accessory,62,4,7,4,2,1,364,144,FALSE,Ignored,0
+50275,25,Male,3,Phone,Debit Card,7032.02,418.51,3,4,Mobile,26,2,1,3,1,0,2,122,FALSE,Responded,0
+50276,57,Male,17,Computer,Debit Card,8598.93,11.38,2,3,Others,72,2,9,2,0,1,265,292,FALSE,Unsubscribed,0
+50277,39,Female,14,Computer,Debit Card,2549.83,61.78,2,2,Grocery,12,10,2,2,4,0,360,232,TRUE,Ignored,0
+50278,51,Female,14,Mobile Phone,COD,3218.74,237.63,2,3,Laptop & Accessory,58,1,3,1,1,0,57,166,TRUE,Ignored,0
+50279,62,Male,2,Mobile Phone,E wallet,5056.7,456.05,2,2,Fashion,56,2,8,2,3,0,311,184,TRUE,Ignored,0
+50280,52,Male,14,Phone,Credit Card,813.59,96.37,3,3,Laptop & Accessory,18,2,1,5,0,0,61,146,FALSE,Responded,0
+50281,52,Male,11,Phone,Credit Card,987.46,337.79,3,3,Mobile Phone,55,6,7,2,4,0,314,140,FALSE,Responded,1
+50282,42,Male,14,Mobile Phone,Credit Card,4269,435.33,2,4,Fashion,1,3,2,5,2,1,22,180,FALSE,Ignored,0
+50283,51,Male,7,Phone,Debit Card,2686.07,465.64,3,3,Mobile,12,4,2,3,2,0,130,127,FALSE,Responded,0
+50284,23,Female,19,Mobile Phone,Debit Card,4119.77,331.47,1,3,Grocery,37,3,7,4,0,0,62,266,FALSE,Unsubscribed,0
+50285,58,Female,8,Computer,Debit Card,4598.42,182.89,3,3,Laptop & Accessory,78,3,8,4,4,0,5,146,TRUE,Ignored,0
+50286,54,Female,14,Mobile Phone,Debit Card,9765.11,188.27,2,5,Laptop & Accessory,9,3,0,5,4,0,274,161,TRUE,Ignored,0
+50287,18,Female,4,Mobile Phone,Debit Card,9448.17,383.5,2,3,Others,64,6,3,1,3,0,132,296,TRUE,Responded,0
+50288,29,Female,11,Phone,Credit Card,1483.33,436.71,2,3,Laptop & Accessory,11,3,9,4,3,0,287,148,TRUE,Responded,0
+50289,52,Female,4,Computer,COD,8837.6,481.32,2,4,Laptop & Accessory,90,1,6,2,2,0,173,145,TRUE,Unsubscribed,0
+50290,23,Female,6,Phone,COD,894.05,382.03,3,3,Mobile,10,2,6,4,2,1,307,132,TRUE,Ignored,1
+50291,34,Female,6,Computer,E wallet,5125.59,283.81,2,5,Mobile,85,1,7,3,4,0,88,124,TRUE,Unsubscribed,1
+50292,26,Male,2,Computer,Debit Card,1722.71,457.4,2,3,Mobile Phone,5,2,4,2,1,1,81,117,FALSE,Unsubscribed,0
+50293,19,Female,19,Mobile Phone,Debit Card,3722.33,471.97,3,3,Others,60,1,9,3,3,0,128,280,TRUE,Ignored,0
+50294,35,Female,1,Phone,Debit Card,7459.07,239.12,,3,Mobile,40,2,4,4,0,0,346,129,TRUE,Unsubscribed,0
+50295,66,Male,13,Computer,Debit Card,4302.6,474.71,2,3,Mobile,81,5,3,1,0,0,92,121,TRUE,Ignored,0
+50296,53,Male,14,Mobile Phone,Credit Card,8088.82,305.59,3,4,Fashion,83,2,8,2,0,0,16,219,TRUE,Responded,0
+50297,45,Female,3,Phone,COD,7216.28,210.42,3,4,Mobile,79,6,7,3,2,0,25,125,FALSE,Ignored,1
+50298,58,Male,19,Phone,COD,9434.11,442.58,2,4,Mobile,88,2,9,5,1,0,258,126,FALSE,Responded,1
+50299,54,Female,17,Computer,UPI,5388.14,215.65,3,3,Fashion,53,1,2,3,0,0,181,184,TRUE,Responded,0
+50300,66,Male,4,Mobile Phone,E wallet,8041.26,186.57,2,4,Grocery,49,4,8,5,2,0,267,241,TRUE,Responded,0
+50301,43,Male,13,Mobile Phone,Debit Card,3296.78,411.17,2,4,Grocery,31,1,9,5,3,0,330,270,FALSE,Unsubscribed,0
+50302,21,Female,9,Computer,CC,3522.88,487.78,2,3,Mobile,4,1,1,1,3,0,330,126,TRUE,Unsubscribed,0
+50303,57,Female,4,Computer,E wallet,4065.05,334.83,3,4,Fashion,11,5,2,5,1,0,130,203,TRUE,Responded,0
+50304,53,Female,10,Mobile Phone,Credit Card,4168.07,168.63,3,3,Laptop & Accessory,33,6,5,2,2,0,75,151,TRUE,Unsubscribed,0
+50305,68,Male,13,Mobile Phone,Debit Card,1122.21,419.47,2,3,Grocery,22,7,3,4,4,0,42,279,TRUE,Unsubscribed,0
+50306,48,Male,18,Phone,Debit Card,5239.08,457.81,2,5,Mobile Phone,42,1,1,3,3,0,107,142,TRUE,Ignored,0
+50307,47,Female,12,Phone,Debit Card,1058.35,83.04,2,3,Laptop & Accessory,98,8,6,2,2,0,30,138,TRUE,Ignored,0
+50308,67,Male,16,Phone,Debit Card,8908.65,161.62,,4,Mobile,19,4,1,5,1,0,77,128,TRUE,Responded,0
+50309,51,Female,1,Mobile Phone,E wallet,712.26,312.37,3,4,Fashion,98,3,8,2,3,1,193,191,FALSE,Ignored,0
+50310,36,Male,14,Mobile Phone,Debit Card,4551.97,172.97,2,3,Fashion,52,2,5,2,2,0,350,206,FALSE,Responded,0
+50311,35,Male,7,Mobile Phone,Credit Card,2918.47,312.85,2,3,Fashion,77,8,9,1,4,1,67,236,FALSE,Unsubscribed,1
+50312,47,Male,5,Phone,CC,1633.21,415.34,2,5,Mobile,64,8,3,5,4,0,70,134,FALSE,Unsubscribed,1
+50313,38,Male,2,Phone,E wallet,7859.98,77.86,,3,Mobile,53,1,3,2,1,0,17,130,FALSE,Responded,0
+50314,20,Male,4,Mobile Phone,Debit Card,7177.83,315.85,3,3,Fashion,67,5,7,3,3,1,15,176,TRUE,Unsubscribed,0
+50315,23,Male,10,Computer,Debit Card,1544.88,335.05,3,3,Fashion,90,4,6,1,1,0,11,198,FALSE,Ignored,1
+50316,55,Female,15,Computer,UPI,6364.38,438.16,2,3,Fashion,95,10,4,2,4,1,133,200,FALSE,Ignored,1
+50317,30,Male,19,Computer,UPI,7946.3,359.32,3,3,Mobile,52,5,5,3,1,0,7,121,TRUE,Responded,0
+50318,62,Male,15,Computer,Credit Card,7755.99,396.61,2,3,Fashion,93,2,5,3,3,0,109,200,TRUE,Ignored,0
+50319,20,Male,19,Computer,COD,1013.57,91.1,2,4,Mobile Phone,42,6,2,5,3,0,152,139,TRUE,Ignored,1
+50320,65,Female,10,Phone,E wallet,6886.58,74.91,2,3,Laptop & Accessory,18,3,3,2,2,0,86,141,FALSE,Unsubscribed,0
+50321,45,Female,3,Mobile Phone,Debit Card,7188.64,453.21,2,3,Grocery,15,4,8,5,2,0,261,268,TRUE,Responded,0
+50322,39,Male,11,Computer,Debit Card,8635.45,91.1,2,3,Laptop & Accessory,60,8,5,3,0,0,56,162,TRUE,Responded,0
+50323,57,Male,18,Phone,E wallet,5129.64,191.48,2,3,Laptop & Accessory,61,10,9,2,2,0,105,147,FALSE,Unsubscribed,0
+50324,57,Female,2,Mobile Phone,Debit Card,4664.83,397.18,3,3,Grocery,14,8,3,5,0,0,258,232,TRUE,Responded,0
+50325,29,Female,18,Computer,Debit Card,9654.65,39.62,2,3,Mobile Phone,98,2,4,5,2,0,206,138,FALSE,Unsubscribed,0
+50326,40,Male,15,Mobile Phone,Debit Card,7985.47,264.81,3,3,Laptop & Accessory,23,5,9,4,3,1,172,166,FALSE,Responded,0
+50327,48,Male,16,Mobile Phone,Credit Card,5631.44,277.49,2,3,Fashion,62,2,6,1,3,1,42,174,TRUE,Responded,0
+50328,35,Male,19,Phone,UPI,3373.11,11.99,3,3,Laptop & Accessory,89,1,2,3,1,0,351,148,TRUE,Responded,0
+50329,24,Female,19,Computer,Debit Card,8467.86,202.64,,3,Mobile,31,1,8,3,3,1,105,127,TRUE,Unsubscribed,1
+50330,25,Male,12,Phone,COD,4608.82,454.51,2,3,Laptop & Accessory,11,5,5,5,3,0,78,143,TRUE,Unsubscribed,0
+50331,36,Female,6,Mobile Phone,Credit Card,1017.58,218.86,3,2,Grocery,4,5,5,3,0,0,348,262,FALSE,Unsubscribed,0
+50332,46,Male,12,Mobile Phone,Debit Card,4603.55,457.61,2,4,Fashion,32,10,8,3,1,0,40,216,TRUE,Ignored,0
+50333,61,Male,7,Computer,E wallet,8732.49,164.72,3,3,Mobile Phone,33,2,9,2,3,1,263,119,FALSE,Responded,1
+50334,37,Male,10,Computer,UPI,4537.99,257.61,2,5,Fashion,14,4,9,4,3,0,297,209,TRUE,Ignored,0
+50335,67,Female,12,Computer,UPI,242.06,423.09,3,4,Laptop & Accessory,50,3,8,2,4,1,18,168,TRUE,Ignored,0
+50336,59,Male,16,Phone,Credit Card,6153.7,490.91,2,3,Laptop & Accessory,40,6,7,2,3,0,131,143,FALSE,Responded,0
+50337,47,Female,13,Phone,Credit Card,9958.72,382,3,3,Laptop & Accessory,1,2,1,3,4,0,107,149,TRUE,Unsubscribed,0
+50338,64,Male,13,Mobile Phone,Debit Card,8190.76,178.39,3,2,Laptop & Accessory,25,2,9,3,2,0,196,153,FALSE,Responded,0
+50339,39,Male,14,Phone,COD,6210.66,163.83,3,5,Mobile,85,2,6,3,2,1,253,123,FALSE,Ignored,1
+50340,27,Female,6,Mobile Phone,COD,9152.55,37.97,2,3,Fashion,44,5,8,2,3,0,126,175,TRUE,Unsubscribed,0
+50341,43,Female,19,Computer,Credit Card,8154.46,109.43,2,3,Fashion,91,6,7,2,1,0,43,205,FALSE,Responded,0
+50342,68,Female,10,Mobile Phone,Debit Card,5036.53,382.27,3,3,Grocery,92,8,8,4,3,0,217,266,FALSE,Responded,0
+50343,50,Male,9,Computer,Credit Card,5953.08,213.27,3,3,Fashion,88,2,5,5,2,0,125,188,FALSE,Responded,0
+50344,45,Male,9,Mobile Phone,COD,7339.8,86.7,3,3,Laptop & Accessory,91,4,7,2,4,1,334,156,FALSE,Responded,0
+50345,27,Male,9,Computer,UPI,8479.62,155.82,2,2,Laptop & Accessory,74,9,0,3,4,0,4,147,FALSE,Unsubscribed,1
+50346,46,Male,1,Computer,CC,675.95,298.51,2,3,Mobile,98,1,8,2,2,0,83,124,TRUE,Unsubscribed,0
+50347,61,Female,1,Mobile Phone,Credit Card,7770.56,478.73,3,3,Laptop & Accessory,91,4,8,1,3,0,342,198,TRUE,Unsubscribed,0
+50348,35,Female,13,Mobile Phone,Debit Card,4530.28,480.12,3,3,Laptop & Accessory,42,7,3,2,2,0,232,164,FALSE,Unsubscribed,0
+50349,59,Male,19,Mobile Phone,Debit Card,6641.91,65.88,2,4,Others,32,2,2,2,2,1,102,295,TRUE,Unsubscribed,0
+50350,18,Male,16,Phone,CC,7669.87,125.77,,2,Mobile,41,2,5,1,4,1,188,127,TRUE,Unsubscribed,0
+50351,40,Male,13,Mobile Phone,E wallet,5441.07,303.47,3,3,Laptop & Accessory,96,2,7,4,4,0,280,163,TRUE,Ignored,0
+50352,34,Male,18,Phone,UPI,1669.3,456.91,3,4,Mobile,9,2,7,2,2,0,335,121,TRUE,Ignored,0
+50353,60,Male,10,Computer,Credit Card,4154.32,490.93,2,3,Others,50,2,6,1,4,0,82,282,FALSE,Unsubscribed,0
+50354,54,Male,14,Phone,CC,861.04,366.29,2,3,Mobile,37,2,0,1,3,0,89,121,TRUE,Unsubscribed,0
+50355,48,Female,3,Computer,Debit Card,6924.08,211.7,,3,Mobile,82,2,3,1,3,1,355,129,TRUE,Unsubscribed,1
+50356,42,Male,1,Computer,Debit Card,9541.69,437.67,3,4,Mobile,95,2,2,4,0,0,15,120,TRUE,Ignored,1
+50357,21,Male,10,Phone,Debit Card,7973,215.47,2,4,Mobile Phone,2,2,9,1,2,1,133,136,TRUE,Unsubscribed,0
+50358,69,Male,7,Phone,Credit Card,3958.89,336.76,2,3,Laptop & Accessory,59,3,4,5,1,0,121,142,TRUE,Unsubscribed,1
+50359,26,Male,4,Phone,UPI,5884.49,249.92,2,4,Laptop & Accessory,30,5,5,3,3,0,31,137,TRUE,Ignored,0
+50360,45,Male,7,Mobile Phone,Credit Card,3111.59,391.94,3,2,Laptop & Accessory,81,5,9,5,4,0,93,155,TRUE,Unsubscribed,0
+50361,47,Female,2,Phone,CC,5456.35,370.44,3,4,Mobile,85,1,1,2,2,0,182,122,TRUE,Responded,0
+50362,64,Male,2,Mobile Phone,E wallet,3077.2,201.44,3,3,Laptop & Accessory,9,5,9,4,1,1,227,196,FALSE,Ignored,0
+50363,41,Female,6,Phone,Debit Card,7409.42,59.4,,4,Mobile,37,2,1,4,1,0,338,128,FALSE,Ignored,0
+50364,50,Female,2,Phone,Debit Card,2667.48,476.37,2,3,Laptop & Accessory,94,2,0,4,1,0,290,141,FALSE,Ignored,0
+50365,37,Male,2,Mobile Phone,UPI,9643.8,460.12,2,4,Grocery,60,5,4,2,1,1,35,266,TRUE,Ignored,0
+50366,26,Female,4,Phone,Debit Card,6653.29,99.12,2,3,Mobile,16,4,4,1,3,0,186,126,FALSE,Ignored,0
+50367,25,Male,6,Computer,Credit Card,780.9,109.62,3,3,Laptop & Accessory,14,4,0,2,0,1,150,157,FALSE,Ignored,0
+50368,41,Female,19,Mobile Phone,Debit Card,206.7,395.98,2,4,Grocery,26,8,2,1,4,0,82,254,FALSE,Ignored,0
+50369,31,Female,2,Mobile Phone,Debit Card,9970.76,395.51,2,4,Laptop & Accessory,81,5,3,1,3,0,15,160,FALSE,Ignored,0
+50370,35,Female,4,Phone,COD,2283.01,483.09,2,3,Mobile,51,2,0,5,0,1,353,126,TRUE,Ignored,0
+50371,18,Male,14,Phone,E wallet,3194.37,498.82,,3,Mobile,12,1,8,1,3,0,236,130,FALSE,Unsubscribed,1
+50372,29,Male,3,Phone,COD,2163.3,254.2,2,3,Mobile,47,2,2,2,4,0,25,134,TRUE,Responded,0
+50373,46,Male,16,Mobile Phone,UPI,9288.21,480.58,2,3,Others,3,5,8,1,3,1,353,295,TRUE,Responded,0
+50374,54,Male,12,Phone,CC,6554.93,409.83,,3,Mobile,34,1,8,2,4,0,256,128,TRUE,Responded,0
+50375,43,Male,2,Mobile Phone,E wallet,5093.42,380.62,2,3,Laptop & Accessory,93,1,5,4,2,0,255,171,TRUE,Unsubscribed,0
+50376,50,Female,10,Mobile Phone,Debit Card,5620.74,189.32,3,3,Laptop & Accessory,91,2,9,5,3,1,261,163,TRUE,Responded,0
+50377,60,Female,10,Computer,CC,3246.94,426.69,3,3,Mobile,42,2,2,1,2,0,257,121,FALSE,Ignored,0
+50378,32,Female,12,Mobile Phone,Credit Card,6180.33,460.36,2,3,Laptop & Accessory,2,8,6,4,3,0,81,184,TRUE,Unsubscribed,0
+50379,40,Male,17,Phone,Debit Card,4254.04,369.66,,3,Mobile,27,2,0,4,2,0,291,127,FALSE,Unsubscribed,0
+50380,46,Female,10,Computer,Debit Card,2072.36,326.78,3,3,Laptop & Accessory,73,3,4,2,2,0,338,143,TRUE,Ignored,1
+50381,38,Female,1,Phone,Debit Card,6600.39,323.8,3,3,Mobile,84,2,6,4,2,1,100,127,FALSE,Unsubscribed,0
+50382,36,Male,5,Mobile Phone,UPI,3801.02,86.28,2,3,Fashion,28,2,5,4,1,0,122,194,TRUE,Ignored,0
+50383,22,Female,12,Mobile Phone,Credit Card,7872.16,117.76,3,3,Laptop & Accessory,23,2,7,1,0,0,73,156,FALSE,Ignored,0
+50384,40,Male,4,Mobile Phone,Debit Card,4212.41,122.18,2,5,Laptop & Accessory,90,2,6,3,0,0,94,166,FALSE,Unsubscribed,0
+50385,53,Male,13,Computer,Debit Card,5131.89,89.71,1,3,Laptop & Accessory,89,4,8,1,2,0,28,177,FALSE,Unsubscribed,0
+50386,37,Male,3,Mobile Phone,Credit Card,7895.92,244.22,2,3,Fashion,85,3,1,3,1,0,74,207,FALSE,Ignored,0
+50387,25,Male,1,Mobile Phone,Credit Card,4533.99,42.79,2,4,Laptop & Accessory,37,3,0,4,1,1,182,188,TRUE,Responded,0
+50388,26,Male,5,Phone,CC,9665.59,150.84,2,4,Mobile,25,1,9,3,4,0,166,120,TRUE,Ignored,0
+50389,31,Male,11,Mobile Phone,Credit Card,7950.98,405.64,2,3,Mobile Phone,31,2,8,4,1,1,182,110,FALSE,Ignored,1
+50390,23,Male,4,Computer,Debit Card,8281.66,463.17,3,3,Mobile,13,2,4,1,2,1,53,133,FALSE,Ignored,1
+50391,18,Male,12,Computer,Debit Card,9543.81,434.05,2,4,Mobile Phone,53,2,4,2,4,0,150,113,FALSE,Unsubscribed,0
+50392,26,Male,10,Phone,CC,3949.62,165.41,,2,Mobile,57,3,5,3,0,0,150,128,TRUE,Responded,0
+50393,33,Male,6,Phone,Debit Card,5842.79,269.36,2,2,Laptop & Accessory,93,1,4,5,0,0,173,149,FALSE,Unsubscribed,0
+50394,33,Female,2,Phone,E wallet,6966.56,467.5,2,4,Laptop & Accessory,69,1,1,2,3,0,300,140,TRUE,Responded,0
+50395,29,Male,4,Computer,Debit Card,6767.24,287.67,,5,Mobile,66,2,3,3,2,0,164,127,TRUE,Responded,0
+50396,22,Male,11,Mobile Phone,E wallet,9534.07,135.06,2,2,Laptop & Accessory,70,4,5,4,3,0,361,181,TRUE,Unsubscribed,0
+50397,57,Female,17,Computer,Credit Card,2954.65,345.45,3,2,Laptop & Accessory,45,2,3,4,0,1,29,146,FALSE,Responded,0
+50398,46,Male,2,Phone,Debit Card,2984.48,320.2,3,2,Mobile Phone,86,4,7,4,1,0,89,147,FALSE,Unsubscribed,0
+50399,63,Male,4,Phone,CC,9188.24,50.02,3,2,Mobile,25,2,8,4,4,1,133,132,TRUE,Responded,0
+50400,44,Female,14,Mobile Phone,Credit Card,8013.13,387.38,2,4,Fashion,9,2,9,4,3,0,66,186,TRUE,Ignored,0
+50401,28,Female,5,Phone,Debit Card,2113.23,54.19,3,3,Laptop & Accessory,31,10,1,1,2,0,282,146,TRUE,Unsubscribed,1
+50402,64,Female,9,Phone,COD,5743.46,317.99,3,4,Laptop & Accessory,33,2,1,3,0,0,25,146,FALSE,Ignored,0
+50403,67,Male,6,Mobile Phone,E wallet,7483.06,348.35,2,3,Laptop & Accessory,86,2,2,2,0,0,165,154,TRUE,Ignored,0
+50404,45,Male,11,Computer,COD,3595.06,300.67,2,3,Laptop & Accessory,68,4,2,3,4,1,339,168,FALSE,Unsubscribed,1
+50405,69,Female,1,Mobile Phone,Debit Card,4400.38,192.9,2,2,Laptop & Accessory,58,1,7,3,0,0,299,176,TRUE,Unsubscribed,0
+50406,53,Female,4,Mobile Phone,Debit Card,5796.43,306.82,3,3,Fashion,85,2,9,1,3,0,16,174,FALSE,Unsubscribed,0
+50407,59,Female,9,Mobile Phone,Debit Card,4724.37,280.77,2,3,Fashion,82,4,5,1,0,0,41,212,FALSE,Unsubscribed,0
+50408,36,Male,14,Mobile Phone,E wallet,7555.12,301.65,2,3,Laptop & Accessory,18,3,6,4,0,0,360,150,TRUE,Unsubscribed,0
+50409,52,Male,1,Computer,Debit Card,158.79,406.78,2,4,Fashion,76,6,0,4,4,1,1,205,TRUE,Unsubscribed,0
+50410,69,Male,11,Mobile Phone,Debit Card,4402.86,414.73,2,2,Grocery,19,4,8,3,1,0,141,248,FALSE,Responded,0
+50411,48,Male,6,Mobile Phone,UPI,3442.06,380.8,3,4,Others,36,4,9,1,2,0,258,291,FALSE,Unsubscribed,0
+50412,61,Male,9,Mobile Phone,E wallet,6130.72,246.33,2,3,Laptop & Accessory,59,9,5,2,2,0,49,154,TRUE,Unsubscribed,0
+50413,36,Male,14,Computer,Debit Card,7781.99,183.99,2,3,Fashion,86,2,4,3,3,0,189,188,TRUE,Responded,0
+50414,63,Male,3,Mobile Phone,UPI,853.84,440.36,2,4,Others,44,2,5,1,2,0,204,292,TRUE,Ignored,0
+50415,41,Male,1,Phone,E wallet,1664.79,439.61,2,3,Mobile Phone,64,8,2,3,4,0,126,139,TRUE,Unsubscribed,0
+50416,19,Female,13,Phone,Debit Card,6684.31,408.68,3,5,Mobile,99,8,6,1,4,1,76,122,FALSE,Ignored,1
+50417,24,Female,8,Computer,Debit Card,7410.18,443.33,3,2,Fashion,98,10,5,3,0,0,236,217,TRUE,Responded,0
+50418,60,Female,17,Mobile Phone,Debit Card,5923.2,203.68,2,3,Fashion,74,5,6,2,0,1,195,179,TRUE,Ignored,0
+50419,66,Male,16,Computer,Credit Card,9829.75,271.88,2,5,Mobile Phone,28,3,6,1,3,0,213,137,FALSE,Ignored,0
+50420,48,Female,18,Computer,Credit Card,5044.67,289.25,2,3,Grocery,88,10,1,5,1,1,154,238,TRUE,Unsubscribed,0
+50421,34,Male,1,Mobile Phone,E wallet,1449.29,361.78,2,3,Laptop & Accessory,64,8,2,4,0,0,293,153,FALSE,Ignored,0
+50422,44,Male,1,Phone,Debit Card,6894.28,393.26,2,3,Mobile,52,2,3,1,4,0,257,126,TRUE,Responded,0
+50423,53,Male,12,Computer,CC,6060.55,285.47,,2,Mobile,60,7,2,3,0,1,227,128,FALSE,Ignored,1
+50424,67,Male,11,Computer,Debit Card,5945.17,452.34,2,4,Laptop & Accessory,37,4,5,4,3,0,337,168,FALSE,Unsubscribed,0
+50425,60,Female,7,Mobile Phone,Credit Card,5503.95,120.08,3,3,Laptop & Accessory,49,4,9,3,3,0,345,161,TRUE,Unsubscribed,0
+50426,27,Male,19,Phone,CC,9397.05,210.25,2,3,Mobile,98,2,2,1,0,0,185,125,FALSE,Ignored,0
+50427,62,Female,2,Mobile Phone,UPI,1378.65,38.07,2,2,Laptop & Accessory,12,10,9,3,1,0,24,164,TRUE,Responded,0
+50428,31,Male,6,Mobile Phone,Credit Card,824.65,491.14,2,3,Grocery,73,8,2,1,2,0,342,211,TRUE,Unsubscribed,0
+50429,24,Female,18,Phone,CC,1625.76,402.65,2,4,Mobile,94,1,3,1,4,1,174,123,FALSE,Responded,0
+50430,56,Female,11,Mobile Phone,Credit Card,2525.4,70.53,2,4,Laptop & Accessory,34,9,0,4,1,0,145,168,TRUE,Unsubscribed,0
+50431,57,Male,13,Phone,E wallet,5970.17,173.63,2,3,Mobile,48,2,0,1,3,0,60,123,TRUE,Ignored,0
+50432,26,Male,10,Phone,Debit Card,6163.01,271.82,2,3,Laptop & Accessory,15,3,9,2,4,0,70,125,TRUE,Responded,0
+50433,31,Female,18,Computer,Debit Card,2402.76,155.33,3,3,Laptop & Accessory,95,3,5,5,4,0,13,151,TRUE,Unsubscribed,0
+50434,25,Male,4,Computer,Debit Card,4943.33,67.77,3,3,Laptop & Accessory,32,2,7,2,2,0,259,153,TRUE,Responded,0
+50435,34,Male,9,Phone,CC,4872.41,303.37,,3,Mobile,88,7,3,1,3,1,172,131,TRUE,Responded,0
+50436,40,Female,3,Mobile Phone,Debit Card,4585.8,119.58,2,3,Laptop & Accessory,64,4,9,5,2,0,50,151,TRUE,Responded,0
+50437,33,Male,11,Mobile Phone,E wallet,8055.1,320.13,2,4,Grocery,44,2,9,3,2,0,99,269,TRUE,Ignored,0
+50438,43,Male,7,Phone,UPI,4769.76,348.52,,3,Mobile,22,2,0,3,1,1,64,127,FALSE,Ignored,1
+50439,26,Female,1,Mobile Phone,Credit Card,7607.82,408.91,2,3,Laptop & Accessory,3,2,5,2,3,0,249,162,FALSE,Ignored,0
+50440,53,Male,5,Mobile Phone,COD,1748.16,228.83,2,5,Laptop & Accessory,27,1,4,4,3,0,163,166,TRUE,Responded,0
+50441,24,Male,5,Phone,Credit Card,5366.48,352.17,3,2,Mobile,10,2,1,5,1,0,288,135,TRUE,Ignored,0
+50442,35,Female,13,Computer,Debit Card,8258.64,27.22,3,1,Laptop & Accessory,2,5,0,5,3,1,56,164,TRUE,Unsubscribed,1
+50443,25,Male,1,Mobile Phone,UPI,1859.39,319.16,2,3,Laptop & Accessory,57,2,0,4,1,0,84,163,FALSE,Ignored,0
+50444,38,Male,4,Mobile Phone,Credit Card,4702.73,222.93,3,3,Others,68,6,0,3,3,1,295,299,FALSE,Responded,1
+50445,43,Male,8,Computer,Debit Card,6129.89,406.44,3,4,Fashion,82,2,4,1,0,0,187,176,TRUE,Unsubscribed,0
+50446,20,Male,18,Computer,Credit Card,1929.27,494.07,2,3,Mobile Phone,2,1,9,3,3,0,313,143,FALSE,Unsubscribed,0
+50447,34,Female,12,Computer,Debit Card,7591.98,153.29,3,5,Mobile Phone,31,4,4,1,0,0,64,144,FALSE,Unsubscribed,0
+50448,68,Female,3,Phone,Credit Card,882.06,448.28,3,3,Laptop & Accessory,35,5,0,3,2,0,88,143,TRUE,Responded,0
+50449,63,Male,13,Mobile Phone,COD,9469.51,61.94,2,4,Laptop & Accessory,98,7,8,5,2,0,74,153,TRUE,Responded,1
+50450,41,Female,17,Phone,Debit Card,4735.39,231.67,3,1,Mobile,48,3,7,5,2,0,63,133,FALSE,Responded,0
+50451,42,Female,3,Mobile Phone,Credit Card,3427.62,350.69,3,3,Laptop & Accessory,49,10,1,1,4,1,151,155,FALSE,Ignored,0
+50452,22,Male,13,Computer,E wallet,1256.39,432.93,2,3,Laptop & Accessory,11,1,8,3,2,0,339,143,FALSE,Responded,0
+50453,54,Female,10,Phone,Debit Card,4382.71,118.39,,3,Mobile,7,1,9,1,0,1,304,128,FALSE,Unsubscribed,0
+50454,62,Female,4,Computer,Debit Card,6632.06,251.39,3,1,Laptop & Accessory,6,7,6,1,1,1,306,160,TRUE,Responded,0
+50455,67,Female,1,Phone,Credit Card,1035.42,488.2,2,4,Mobile Phone,43,2,4,3,1,0,315,144,TRUE,Unsubscribed,0
+50456,41,Female,14,Phone,Debit Card,3132.06,371.26,3,3,Mobile,71,2,8,1,4,0,354,126,FALSE,Responded,0
+50457,48,Male,6,Phone,Debit Card,8376.57,203.06,2,5,Mobile Phone,39,4,9,1,3,0,120,138,FALSE,Unsubscribed,0
+50458,43,Female,19,Computer,Credit Card,6497.19,253.8,2,1,Laptop & Accessory,6,2,6,3,2,0,239,142,TRUE,Unsubscribed,0
+50459,38,Female,4,Mobile Phone,Debit Card,2143.09,460.63,3,3,Laptop & Accessory,61,6,4,2,3,0,338,165,FALSE,Unsubscribed,0
+50460,51,Male,11,Computer,Debit Card,1693.01,248.53,3,3,Others,31,2,7,2,1,0,349,284,FALSE,Unsubscribed,0
+50461,55,Male,13,Mobile Phone,Debit Card,9054.4,38.46,3,1,Mobile Phone,60,2,0,4,0,1,62,116,FALSE,Ignored,1
+50462,41,Male,10,Computer,Debit Card,2941.5,110.3,,4,Mobile,9,2,4,2,4,0,206,127,TRUE,Ignored,0
+50463,45,Female,17,Phone,Debit Card,1877.05,11.84,,3,Laptop & Accessory,64,9,3,3,4,0,154,131,FALSE,Ignored,0
+50464,47,Male,7,Mobile Phone,Credit Card,9999.64,245.31,3,3,Grocery,82,6,4,1,4,0,35,276,FALSE,Responded,0
+50465,51,Female,13,Phone,Debit Card,3161,486.97,2,4,Mobile,87,2,9,3,2,1,14,123,FALSE,Unsubscribed,1
+50466,69,Male,16,Mobile Phone,Credit Card,1334.93,403.21,2,3,Fashion,4,1,9,5,4,0,219,217,FALSE,Responded,0
+50467,69,Female,7,Mobile Phone,E wallet,4671.4,30.23,3,3,Laptop & Accessory,16,6,6,3,0,0,34,153,TRUE,Unsubscribed,1
+50468,40,Female,18,Mobile Phone,UPI,4400.02,466.12,2,3,Grocery,95,2,1,2,0,1,338,268,TRUE,Unsubscribed,0
+50469,25,Female,7,Mobile Phone,UPI,9275.34,64.55,2,3,Laptop & Accessory,7,1,3,4,4,0,185,152,TRUE,Ignored,0
+50470,59,Male,6,Phone,Debit Card,1428.63,21.27,,1,Mobile,94,2,2,1,1,0,242,127,FALSE,Ignored,0
+50471,67,Male,13,Mobile Phone,Debit Card,1002.25,113.68,2,3,Others,23,8,8,1,1,1,182,292,FALSE,Responded,1
+50472,27,Female,3,Phone,Debit Card,1020.49,255.08,2,1,Mobile,11,4,5,2,4,0,241,125,TRUE,Responded,0
+50473,18,Female,1,Mobile Phone,Debit Card,9052.45,48.1,2,4,Laptop & Accessory,29,10,0,4,2,1,53,161,FALSE,Ignored,0
+50474,37,Male,18,Phone,Credit Card,4548.75,392.86,2,3,Mobile Phone,8,7,6,5,1,0,363,144,FALSE,Unsubscribed,1
+50475,54,Male,11,Phone,UPI,1591,18.57,2,3,Mobile,92,4,7,4,4,0,101,121,TRUE,Unsubscribed,0
+50476,35,Female,1,Mobile Phone,Debit Card,5978.92,116.9,3,4,Laptop & Accessory,84,2,8,4,0,0,327,162,TRUE,Responded,0
+50477,38,Male,5,Computer,Credit Card,5422.47,303.22,2,4,Laptop & Accessory,3,7,2,2,3,0,209,151,FALSE,Responded,0
+50478,66,Female,9,Mobile Phone,Credit Card,2064.23,211.18,2,4,Laptop & Accessory,72,6,8,4,1,1,158,169,TRUE,Responded,0
+50479,21,Female,19,Phone,Debit Card,6070.08,235.6,3,4,Mobile,77,2,6,1,2,0,143,123,TRUE,Ignored,0
+50480,60,Male,14,Phone,Debit Card,3468.29,338.29,3,3,Laptop & Accessory,52,2,4,4,3,0,292,144,TRUE,Responded,0
+50481,19,Male,8,Computer,Debit Card,2459.87,186.22,2,4,Laptop & Accessory,20,3,8,2,3,0,226,163,FALSE,Unsubscribed,0
+50482,38,Female,9,Computer,Debit Card,5152.97,127.92,3,4,Mobile,95,2,5,4,2,0,10,126,TRUE,Unsubscribed,0
+50483,54,Female,17,Mobile Phone,E wallet,2987.33,459.93,2,3,Fashion,31,2,9,4,2,0,94,177,FALSE,Ignored,1
+50484,22,Male,11,Mobile Phone,Credit Card,2299.19,179.14,2,3,Laptop & Accessory,28,5,4,1,4,0,323,152,FALSE,Unsubscribed,1
+50485,34,Male,16,Mobile Phone,Debit Card,8809.25,244.23,3,3,Grocery,16,7,7,1,0,0,79,272,TRUE,Unsubscribed,0
+50486,66,Male,17,Mobile Phone,Cash on Delivery,1642.05,411.78,2,4,Fashion,48,2,0,2,2,1,136,228,FALSE,Unsubscribed,0
+50487,65,Male,2,Mobile Phone,UPI,2877.84,320.07,2,3,Fashion,24,4,4,3,2,0,258,202,FALSE,Responded,0
+50488,28,Female,3,Phone,E wallet,3922.77,314.01,2,3,Laptop & Accessory,59,2,8,1,3,1,235,148,TRUE,Unsubscribed,0
+50489,63,Male,17,Phone,UPI,2809.02,323.02,2,3,Mobile Phone,95,1,1,2,1,0,238,137,TRUE,Unsubscribed,0
+50490,58,Female,12,Computer,CC,2186.04,407.08,2,4,Mobile,84,2,1,4,1,1,203,124,TRUE,Unsubscribed,1
+50491,48,Male,16,Computer,Credit Card,7734.35,267.67,2,3,Mobile Phone,9,2,7,1,2,0,143,117,TRUE,Ignored,0
+50492,45,Female,16,Mobile Phone,E wallet,3357.26,47.17,3,3,Grocery,14,3,9,5,0,0,341,263,FALSE,Unsubscribed,0
+50493,61,Male,6,Mobile Phone,Credit Card,1213.88,336.1,2,3,Laptop & Accessory,39,10,8,2,2,0,93,159,TRUE,Responded,0
+50494,49,Male,3,Phone,CC,5454.86,90.85,3,1,Mobile,39,8,7,5,0,0,177,134,FALSE,Unsubscribed,0
+50495,38,Male,13,Phone,Credit Card,1342.34,416.07,2,1,Laptop & Accessory,3,2,5,1,3,0,230,140,FALSE,Unsubscribed,0
+50496,24,Female,13,Phone,CC,3639.44,86.71,2,4,Mobile,43,2,5,5,4,0,363,126,TRUE,Responded,0
+50497,27,Male,15,Mobile Phone,Debit Card,8830.08,478.66,2,3,Laptop & Accessory,52,2,9,3,3,1,327,162,TRUE,Ignored,0
+50498,45,Male,2,Phone,Debit Card,3754.7,358.07,3,3,Laptop & Accessory,69,3,4,1,4,0,237,144,FALSE,Unsubscribed,0
+50499,65,Male,12,Computer,Debit Card,6361.84,139.06,3,4,Mobile Phone,39,10,8,4,3,0,117,138,FALSE,Ignored,0
+50500,53,Female,15,Mobile Phone,E wallet,5194.79,111.66,3,4,Fashion,70,8,1,2,2,1,112,209,TRUE,Unsubscribed,0
+50501,37,Male,15,Mobile Phone,E wallet,1463.48,440.35,3,3,Fashion,60,5,7,5,2,1,332,208,FALSE,Unsubscribed,0
+50502,30,Female,12,Mobile Phone,Credit Card,6525.79,122.99,3,1,Laptop & Accessory,64,6,1,3,0,0,279,152,TRUE,Ignored,0
+50503,36,Female,7,Computer,Credit Card,8574.75,211.81,2,4,Grocery,54,4,9,5,2,0,23,238,FALSE,Responded,0
+50504,67,Male,3,Mobile Phone,E wallet,1022.8,235.56,3,4,Laptop & Accessory,63,5,5,1,1,0,23,163,FALSE,Ignored,0
+50505,28,Male,10,Phone,Credit Card,7561.43,70.94,3,4,Mobile Phone,34,2,1,5,2,0,114,149,FALSE,Unsubscribed,0
+50506,52,Male,11,Phone,Debit Card,6933.09,370.38,2,4,Laptop & Accessory,89,7,3,2,1,0,355,148,FALSE,Ignored,0
+50507,51,Male,18,Phone,Debit Card,8679.94,62.76,,1,Mobile,93,3,0,5,3,1,144,128,FALSE,Unsubscribed,0
+50508,61,Male,7,Computer,CC,1130.51,428.63,2,3,Mobile,86,6,2,5,3,1,254,125,FALSE,Unsubscribed,0
+50509,21,Male,7,Phone,Debit Card,3126.38,270.56,3,4,Mobile,45,1,7,4,4,0,157,123,TRUE,Ignored,0
+50510,30,Male,12,Phone,UPI,6973.49,312.18,3,3,Laptop & Accessory,15,2,9,3,4,1,153,142,TRUE,Unsubscribed,0
+50511,54,Female,17,Mobile Phone,Debit Card,317.98,416.14,3,4,Fashion,69,2,4,5,2,1,311,207,FALSE,Ignored,0
+50512,19,Female,14,Computer,Debit Card,7367.35,174.76,3,3,Mobile,82,2,9,4,2,1,332,120,TRUE,Responded,1
+50513,67,Male,15,Computer,Debit Card,8593.99,482.92,3,3,Mobile,80,1,1,5,4,0,298,123,TRUE,Unsubscribed,0
+50514,18,Male,8,Phone,E wallet,4587.71,309.78,2,4,Laptop & Accessory,26,2,2,5,2,0,264,143,FALSE,Responded,0
+50515,57,Female,17,Phone,COD,4399.87,70.88,2,3,Mobile Phone,64,3,3,3,1,0,38,136,TRUE,Ignored,0
+50516,42,Male,7,Computer,Debit Card,2856.84,151.01,,4,Mobile,37,1,6,5,3,0,349,132,FALSE,Unsubscribed,0
+50517,54,Male,9,Computer,Debit Card,150.01,253.17,2,3,Laptop & Accessory,13,2,8,3,0,0,264,165,TRUE,Responded,0
+50518,53,Male,16,Phone,E wallet,1944.4,345.53,,4,Mobile,39,1,5,5,0,0,182,129,TRUE,Ignored,0
+50519,23,Female,3,Mobile Phone,Debit Card,9800.65,109.06,3,1,Laptop & Accessory,60,3,6,3,3,1,129,152,TRUE,Unsubscribed,0
+50520,24,Male,11,Phone,Debit Card,8686.13,219.21,2,3,Mobile,94,4,1,5,0,1,236,124,FALSE,Ignored,0
+50521,21,Female,10,Phone,CC,2738.4,62.76,,4,Mobile,31,7,0,3,0,1,358,128,TRUE,Ignored,1
+50522,52,Male,11,Mobile Phone,E wallet,9641.11,98.47,3,3,Grocery,99,6,0,1,1,0,221,218,TRUE,Unsubscribed,0
+50523,58,Male,9,Mobile Phone,Cash on Delivery,3740.35,381.48,3,4,Fashion,84,4,1,5,3,0,127,209,FALSE,Ignored,0
+50524,51,Female,11,Computer,CC,3046.1,308.59,,3,Mobile,84,6,5,4,4,0,158,130,TRUE,Responded,0
+50525,46,Female,11,Mobile Phone,Debit Card,1612.8,231.6,3,3,Grocery,32,7,7,5,3,0,69,243,FALSE,Ignored,0
+50526,22,Female,18,Computer,Debit Card,9025.95,13.5,2,3,Laptop & Accessory,76,5,7,5,2,0,10,156,TRUE,Unsubscribed,0
+50527,44,Female,4,Phone,E wallet,9871.23,42.4,2,3,Laptop & Accessory,8,1,0,4,2,1,136,145,TRUE,Ignored,0
+50528,50,Male,5,Computer,Credit Card,3341.37,384.15,2,3,Fashion,70,2,4,5,3,1,339,176,TRUE,Unsubscribed,0
+50529,63,Male,5,Computer,Debit Card,7063.96,55.98,3,3,Grocery,78,2,4,1,0,0,95,279,TRUE,Responded,0
+50530,69,Female,18,Mobile Phone,Debit Card,3419.5,387.81,2,4,Laptop & Accessory,63,9,3,4,1,0,334,152,FALSE,Ignored,0
+50531,27,Male,18,Phone,UPI,1139.41,364.84,2,3,Mobile,99,4,8,4,2,1,110,123,FALSE,Unsubscribed,0
+50532,23,Male,16,Phone,Debit Card,3987.65,261.73,,3,Mobile,47,2,7,3,4,1,256,128,TRUE,Unsubscribed,1
+50533,51,Female,9,Phone,CC,5560.54,185.85,3,4,Mobile,33,7,7,3,1,0,360,125,FALSE,Responded,0
+50534,25,Male,2,Phone,Debit Card,1317.87,451.11,3,3,Mobile,33,2,4,4,4,1,35,126,FALSE,Ignored,0
+50535,48,Male,16,Phone,Credit Card,8200.9,96.53,3,3,Laptop & Accessory,29,2,2,4,0,0,112,149,TRUE,Responded,0
+50536,26,Male,10,Computer,Debit Card,5023.89,428.96,2,4,Mobile,13,10,2,5,4,1,106,124,TRUE,Ignored,1
+50537,38,Female,12,Phone,Debit Card,2420.39,384.1,2,3,Laptop & Accessory,94,5,2,1,4,0,174,148,TRUE,Unsubscribed,0
+50538,25,Female,17,Phone,CC,5968.32,337.19,2,4,Mobile,75,2,4,3,2,0,236,120,TRUE,Unsubscribed,1
+50539,21,Female,16,Phone,UPI,7953.27,471.76,,3,Mobile,56,2,1,2,0,0,217,127,TRUE,Unsubscribed,1
+50540,39,Male,17,Mobile Phone,Debit Card,3343.48,498.1,3,3,Laptop & Accessory,74,1,2,5,4,1,144,166,FALSE,Unsubscribed,0
+50541,45,Female,17,Phone,Debit Card,7044.62,396.73,3,4,Mobile,50,2,4,5,1,1,336,133,FALSE,Ignored,0
+50542,62,Female,3,Phone,Debit Card,4335.81,122.1,2,3,Laptop & Accessory,20,1,4,1,3,1,342,142,FALSE,Unsubscribed,1
+50543,21,Female,9,Phone,Debit Card,9644.11,345.63,,5,Mobile,87,5,2,3,3,1,56,128,TRUE,Responded,1
+50544,56,Female,2,Phone,CC,7732.31,206.19,3,3,Mobile,24,6,7,2,2,0,151,124,FALSE,Responded,0
+50545,38,Male,17,Phone,CC,3627.87,69.95,3,3,Mobile,31,8,3,3,4,1,147,124,FALSE,Ignored,1
+50546,25,Female,15,Phone,Debit Card,275.7,425.9,3,3,Mobile,61,2,2,3,1,0,11,123,TRUE,Ignored,0
+50547,37,Male,9,Mobile Phone,Debit Card,6609.45,174.02,2,3,Mobile,53,2,1,1,1,0,256,120,FALSE,Ignored,0
+50548,49,Female,2,Mobile Phone,Credit Card,2058.93,482.58,3,4,Laptop & Accessory,14,8,7,5,4,0,347,162,TRUE,Responded,0
+50549,18,Male,15,Phone,UPI,1306.6,407.45,,4,Mobile,32,4,0,1,4,1,27,128,FALSE,Responded,0
+50550,23,Female,14,Mobile Phone,Cash on Delivery,9324.59,402.03,2,4,Fashion,59,3,4,3,0,1,329,206,TRUE,Unsubscribed,0
+50551,45,Male,1,Phone,Debit Card,9999.49,415.19,2,4,Mobile,17,4,4,2,3,0,9,123,FALSE,Responded,0
+50552,61,Female,13,Phone,Debit Card,2771.9,209.98,2,3,Laptop & Accessory,19,2,9,5,4,1,163,140,TRUE,Ignored,0
+50553,48,Female,9,Mobile Phone,UPI,3087.51,50.28,2,3,Fashion,2,5,5,1,4,0,349,174,TRUE,Responded,0
+50554,27,Male,1,Phone,CC,1733.39,497.57,2,3,Mobile,16,5,4,4,1,0,167,123,TRUE,Responded,0
+50555,37,Female,1,Computer,E wallet,4631.08,482.43,2,3,Laptop & Accessory,33,2,9,2,2,0,128,169,TRUE,Responded,0
+50556,25,Male,11,Phone,UPI,8671.85,239.17,3,3,Mobile Phone,79,3,3,4,3,0,361,147,TRUE,Ignored,0
+50557,39,Female,12,Mobile Phone,Cash on Delivery,7044.91,415.96,3,3,Fashion,74,2,2,3,3,0,357,236,FALSE,Unsubscribed,0
+50558,55,Female,5,Computer,Debit Card,8478.68,243.91,3,4,Mobile,7,7,1,2,3,0,27,123,FALSE,Unsubscribed,0
+50559,46,Male,19,Phone,E wallet,2361.97,463.81,2,4,Mobile,68,2,5,2,0,1,143,124,TRUE,Responded,1
+50560,26,Male,18,Mobile Phone,E wallet,7331.52,206.03,3,4,Fashion,71,3,3,5,3,0,316,197,FALSE,Unsubscribed,0
+50561,61,Male,7,Computer,Credit Card,9193.41,440.54,2,4,Laptop & Accessory,80,2,5,3,1,0,161,143,FALSE,Ignored,0
+50562,64,Male,19,Phone,Credit Card,2886.02,16.34,2,3,Mobile Phone,94,3,7,1,4,1,52,147,TRUE,Unsubscribed,0
+50563,18,Male,16,Phone,CC,6937.47,177.24,3,3,Mobile,86,5,3,2,1,0,232,125,TRUE,Responded,0
+50564,58,Male,10,Phone,UPI,4066.51,312.07,2,4,Mobile,52,2,8,1,0,1,101,121,TRUE,Unsubscribed,1
+50565,69,Male,8,Phone,COD,2973.24,428.87,,3,Mobile,75,2,5,3,0,0,213,130,TRUE,Responded,1
+50566,56,Female,3,Mobile Phone,Credit Card,9699.27,53.46,2,3,Laptop & Accessory,59,1,7,3,1,1,186,159,FALSE,Ignored,0
+50567,43,Male,1,Computer,Credit Card,3551.47,46.59,2,3,Mobile Phone,78,9,8,4,2,1,4,136,TRUE,Unsubscribed,0
+50568,28,Female,18,Mobile Phone,Credit Card,1167.71,396.06,3,3,Laptop & Accessory,92,2,3,1,2,0,125,167,FALSE,Ignored,0
+50569,69,Male,7,Mobile Phone,Debit Card,3947.03,287.39,2,4,Fashion,27,2,9,1,0,1,288,203,TRUE,Ignored,1
+50570,52,Female,13,Mobile Phone,Debit Card,4532.02,74.64,2,4,Laptop & Accessory,27,1,5,5,2,0,143,169,TRUE,Unsubscribed,0
+50571,41,Male,15,Mobile Phone,Debit Card,7546.89,243.92,2,4,Fashion,69,6,5,3,1,0,258,206,TRUE,Unsubscribed,1
+50572,50,Male,15,Computer,Debit Card,9504.15,110.27,2,3,Laptop & Accessory,60,2,4,3,0,0,33,144,FALSE,Responded,0
+50573,37,Female,8,Computer,Cash on Delivery,8188.86,378.18,2,3,Mobile,30,2,3,3,3,0,247,122,FALSE,Ignored,0
+50574,44,Female,10,Phone,Credit Card,9316.32,409.65,2,3,Laptop & Accessory,49,2,8,3,2,0,114,146,TRUE,Ignored,0
+50575,32,Male,8,Mobile Phone,Debit Card,4803.1,225.91,3,3,Grocery,93,3,9,5,2,0,140,271,TRUE,Unsubscribed,0
+50576,50,Male,14,Phone,COD,7221.23,484.25,2,3,Mobile,62,5,8,4,1,0,306,125,TRUE,Unsubscribed,1
+50577,69,Male,2,Mobile Phone,Credit Card,3159.59,321.34,2,3,Grocery,61,7,0,3,1,0,323,249,FALSE,Unsubscribed,0
+50578,24,Male,4,Mobile Phone,UPI,788.91,137.23,3,3,Fashion,16,6,4,2,1,0,262,173,TRUE,Responded,0
+50579,51,Female,3,Computer,COD,3718.19,42.31,2,3,Laptop & Accessory,92,2,2,4,2,1,144,157,TRUE,Ignored,0
+50580,62,Male,8,Mobile Phone,Debit Card,7009.36,351.68,3,3,Fashion,41,7,5,5,2,0,24,178,FALSE,Unsubscribed,0
+50581,68,Male,3,Mobile Phone,Debit Card,2818.76,299.1,2,1,Fashion,33,1,9,4,0,0,307,179,TRUE,Unsubscribed,0
+50582,63,Female,8,Computer,Debit Card,8627.92,178.15,3,1,Grocery,46,5,2,4,2,1,271,232,TRUE,Unsubscribed,1
+50583,59,Male,4,Computer,Credit Card,7928.65,371.87,3,1,Laptop & Accessory,15,2,5,5,0,1,235,151,FALSE,Ignored,0
+50584,22,Male,1,Computer,COD,2021.02,28.98,2,3,Laptop & Accessory,69,5,1,2,1,0,320,151,TRUE,Responded,0
+50585,47,Male,5,Computer,CC,3375.28,427.62,2,4,Mobile,90,1,9,3,3,1,149,123,FALSE,Responded,1
+50586,45,Male,12,Computer,Debit Card,8270.5,103.42,2,3,Grocery,97,2,8,2,2,0,105,274,TRUE,Responded,0
+50587,35,Female,16,Phone,Debit Card,2514.98,26.23,3,4,Mobile,13,7,8,3,1,1,255,124,FALSE,Responded,1
+50588,53,Female,10,Phone,Debit Card,3382.86,447.04,2,3,Mobile,45,4,3,5,3,0,52,135,TRUE,Unsubscribed,0
+50589,20,Female,7,Phone,CC,3496.36,312.78,3,3,Mobile,60,4,6,1,1,0,21,123,FALSE,Responded,0
+50590,38,Male,6,Mobile Phone,Credit Card,8030.32,70.97,3,3,Grocery,43,10,2,5,3,0,223,274,TRUE,Unsubscribed,0
+50591,63,Female,2,Computer,UPI,466.6,317.52,2,1,Laptop & Accessory,64,2,5,4,2,1,317,155,FALSE,Unsubscribed,0
+50592,33,Male,6,Computer,Credit Card,830.49,445.63,3,3,Others,53,3,8,3,1,0,52,294,FALSE,Ignored,0
+50593,54,Female,17,Phone,COD,5826.67,296.68,,3,Mobile,14,10,2,5,2,0,322,128,TRUE,Ignored,0
+50594,59,Male,13,Computer,Debit Card,4031.41,378.02,2,3,Laptop & Accessory,53,2,5,2,0,1,215,136,FALSE,Ignored,0
+50595,22,Female,15,Phone,Debit Card,6365.56,448.87,2,3,Laptop & Accessory,51,2,0,1,1,1,185,142,TRUE,Unsubscribed,0
+50596,67,Female,9,Phone,Debit Card,2737.97,458.89,2,3,Mobile,51,5,7,2,3,1,294,121,TRUE,Responded,1
+50597,68,Male,12,Mobile Phone,Debit Card,9104.87,79.83,3,3,Grocery,70,4,0,2,1,1,277,240,FALSE,Unsubscribed,0
+50598,31,Male,15,Computer,CC,7633.32,379.8,,3,Mobile,88,1,8,4,4,0,251,127,TRUE,Ignored,0
+50599,48,Male,3,Mobile Phone,Credit Card,770.69,430.53,3,3,Fashion,95,7,9,3,4,0,305,208,FALSE,Unsubscribed,0
+50600,63,Female,17,Phone,Credit Card,7860.66,491.72,2,4,Laptop & Accessory,93,2,2,3,0,0,237,144,FALSE,Ignored,0
+50601,41,Male,12,Phone,UPI,9698.87,433.35,2,4,Mobile Phone,55,2,4,5,1,1,298,137,TRUE,Ignored,1
+50602,52,Female,5,Computer,Debit Card,9430.11,344.63,3,3,Laptop & Accessory,86,2,1,4,1,0,75,141,FALSE,Ignored,0
+50603,53,Male,19,Computer,Debit Card,7381.29,144.56,3,3,Mobile Phone,84,2,0,5,3,0,229,111,TRUE,Ignored,0
+50604,27,Female,7,Mobile Phone,Cash on Delivery,1323.58,162.61,2,3,Fashion,89,9,1,3,3,0,228,207,TRUE,Unsubscribed,0
+50605,44,Female,2,Mobile Phone,Credit Card,5803.16,397.19,2,3,Fashion,48,2,9,4,3,1,171,204,FALSE,Ignored,0
+50606,44,Female,5,Mobile Phone,Debit Card,2913.9,213.04,3,1,Fashion,88,1,9,3,1,1,15,214,FALSE,Responded,0
+50607,40,Female,8,Phone,CC,9705.11,426.4,3,4,Mobile,46,2,4,4,1,1,287,126,FALSE,Ignored,1
+50608,30,Female,8,Computer,CC,7203.11,240.74,2,3,Mobile,63,1,1,1,4,0,176,124,FALSE,Ignored,1
+50609,33,Male,17,Mobile Phone,Credit Card,6146.58,336.2,2,1,Laptop & Accessory,11,2,8,1,2,0,193,155,FALSE,Ignored,0
+50610,52,Male,3,Phone,Debit Card,6981.37,478.25,3,5,Mobile,95,2,8,3,3,0,355,125,FALSE,Responded,0
+50611,44,Male,13,Phone,Debit Card,4435.99,114.02,3,4,Laptop & Accessory,97,3,9,4,2,0,6,142,TRUE,Unsubscribed,0
+50612,69,Male,6,Mobile Phone,Debit Card,3790.09,151.36,3,4,Fashion,86,8,2,5,2,0,315,210,TRUE,Ignored,0
+50613,56,Female,13,Mobile Phone,Credit Card,9364.42,230.46,2,3,Laptop & Accessory,55,7,1,1,0,0,180,150,TRUE,Unsubscribed,0
+50614,64,Female,14,Mobile Phone,Debit Card,3386.08,395.17,3,4,Grocery,95,2,6,5,1,0,207,227,FALSE,Responded,0
+50615,34,Female,17,Phone,Debit Card,510.22,411.83,2,3,Laptop & Accessory,7,1,2,1,1,0,225,142,FALSE,Unsubscribed,0
+50616,65,Male,7,Phone,UPI,4068.32,411.11,2,3,Mobile Phone,26,2,5,3,4,0,257,139,FALSE,Ignored,0
+50617,58,Male,16,Mobile Phone,E wallet,7924.37,170.63,2,3,Others,6,7,3,5,1,0,68,283,FALSE,Responded,0
+50618,18,Male,1,Phone,Debit Card,6519.84,53.4,3,3,Mobile,56,5,1,4,0,0,77,124,TRUE,Ignored,0
+50619,28,Female,18,Mobile Phone,Debit Card,9625.49,82.88,3,4,Grocery,96,4,7,1,1,1,90,237,FALSE,Unsubscribed,0
+50620,29,Female,5,Phone,Credit Card,1151.4,86.17,3,5,Laptop & Accessory,48,6,9,4,3,0,160,148,TRUE,Responded,1
+50621,31,Male,14,Computer,Credit Card,9124.31,338.83,3,3,Laptop & Accessory,28,4,8,2,3,1,260,164,TRUE,Unsubscribed,0
+50622,25,Female,1,Computer,Debit Card,3751.61,283.56,2,5,Others,90,2,1,5,4,0,236,300,FALSE,Ignored,0
+50623,48,Male,14,Mobile Phone,Debit Card,4792.63,98.7,2,3,Laptop & Accessory,34,9,9,1,3,1,328,169,FALSE,Responded,0
+50624,24,Male,5,Computer,Credit Card,4341.97,230.9,3,5,Laptop & Accessory,92,9,9,4,0,0,349,150,TRUE,Ignored,1
+50625,63,Female,4,Mobile Phone,E wallet,1252.88,259.13,2,5,Others,17,2,0,3,1,0,142,298,FALSE,Unsubscribed,1
+50626,48,Female,4,Mobile Phone,Credit Card,2553.18,391.19,2,1,Grocery,17,4,2,2,2,1,176,233,TRUE,Unsubscribed,0
+50627,33,Female,3,Computer,Debit Card,7448.49,295.46,3,3,Laptop & Accessory,80,1,0,2,1,0,14,163,FALSE,Unsubscribed,0
+50628,59,Female,18,Phone,Debit Card,327.77,194.82,,1,Mobile,95,2,0,4,0,0,143,127,TRUE,Responded,1
+50629,56,Female,13,Computer,Credit Card,1425.49,475.21,2,3,Fashion,35,2,1,5,1,1,219,209,FALSE,Unsubscribed,0
+50630,61,Female,4,Computer,Debit Card,349.58,256.26,2,4,Mobile,60,1,9,3,1,0,189,123,FALSE,Ignored,0
+50631,36,Female,9,Mobile Phone,Debit Card,8588.14,432.16,2,3,Grocery,70,4,5,4,3,0,151,277,TRUE,Unsubscribed,0
+50632,25,Female,2,Computer,Credit Card,6211.52,226.42,3,3,Mobile Phone,73,10,4,4,0,0,111,140,TRUE,Unsubscribed,0
+50633,46,Male,16,Mobile Phone,E wallet,1782.29,17.33,3,1,Laptop & Accessory,17,1,5,4,3,0,156,197,FALSE,Responded,0
+50634,19,Male,10,Mobile Phone,Cash on Delivery,7710.85,305.05,3,3,Fashion,52,4,4,4,4,1,241,219,FALSE,Ignored,0
+50635,59,Male,9,Phone,CC,9671.33,403.19,2,3,Mobile,93,2,9,4,4,0,320,122,TRUE,Responded,0
+50636,20,Female,11,Computer,E wallet,9352.15,149.09,2,4,Fashion,6,3,2,4,0,0,29,175,TRUE,Responded,0
+50637,68,Male,13,Phone,UPI,9223.32,356.11,2,3,Laptop & Accessory,1,8,5,3,0,0,17,148,FALSE,Responded,1
+50638,46,Male,13,Computer,Debit Card,177.32,237.1,2,3,Mobile,84,7,4,3,4,1,54,120,FALSE,Unsubscribed,1
+50639,32,Female,4,Phone,Debit Card,5931.23,183.48,2,3,Mobile,24,2,6,4,2,1,116,122,TRUE,Unsubscribed,0
+50640,55,Male,13,Mobile Phone,Credit Card,2640.66,39.46,3,3,Mobile Phone,31,2,4,3,4,0,150,111,FALSE,Unsubscribed,0
+50641,45,Male,9,Computer,UPI,5690.01,184.28,,3,Mobile,39,4,1,1,1,0,91,128,TRUE,Responded,0
+50642,54,Male,10,Mobile Phone,Credit Card,3248.5,406.3,3,3,Others,41,3,9,1,4,1,106,292,TRUE,Ignored,0
+50643,49,Female,1,Phone,UPI,1621.3,399.93,2,3,Laptop & Accessory,99,4,8,2,4,0,172,141,TRUE,Unsubscribed,0
+50644,47,Male,7,Mobile Phone,E wallet,4500.49,422.73,3,3,Laptop & Accessory,82,2,6,1,3,0,192,184,FALSE,Ignored,0
+50645,68,Female,9,Computer,CC,5001.45,401.46,3,4,Mobile,16,2,6,2,0,0,333,120,FALSE,Responded,0
+50646,64,Male,5,Mobile Phone,Credit Card,9898.68,385.69,2,3,Others,75,10,7,3,3,0,63,296,FALSE,Unsubscribed,0
+50647,47,Female,7,Mobile Phone,Debit Card,519.64,418.46,2,4,Fashion,19,7,6,4,3,0,86,207,FALSE,Responded,0
+50648,68,Female,13,Computer,CC,3081.44,411.62,,3,Mobile,28,3,0,4,3,0,163,129,TRUE,Unsubscribed,0
+50649,51,Female,8,Mobile Phone,Credit Card,8533.75,118.28,2,4,Fashion,52,1,4,1,1,0,135,189,TRUE,Responded,0
+50650,30,Male,4,Computer,Credit Card,6630.99,356.56,2,4,Grocery,43,8,3,3,0,0,341,268,TRUE,Ignored,0
+50651,50,Male,11,Mobile Phone,Credit Card,8284.16,498.26,3,4,Fashion,79,6,7,5,4,0,57,234,TRUE,Ignored,0
+50652,59,Female,18,Computer,E wallet,6636.88,81.1,2,3,Mobile,48,2,9,4,1,1,294,123,TRUE,Unsubscribed,1
+50653,34,Female,18,Mobile Phone,Debit Card,7619.41,370.36,2,4,Mobile Phone,82,2,9,3,3,0,272,114,TRUE,Ignored,1
+50654,20,Female,18,Phone,Debit Card,4979.93,461.86,3,4,Laptop & Accessory,42,9,2,4,1,1,271,146,TRUE,Ignored,0
+50655,26,Male,15,Phone,Debit Card,2128.29,329.35,2,3,Mobile,4,10,9,1,1,1,355,125,FALSE,Unsubscribed,1
+50656,69,Male,10,Computer,COD,8119.04,177.58,3,4,Fashion,26,2,6,5,3,0,282,187,TRUE,Responded,1
+50657,28,Male,13,Phone,Credit Card,5721.42,339.34,2,4,Mobile Phone,89,2,0,4,3,0,106,140,FALSE,Unsubscribed,0
+50658,66,Male,13,Mobile Phone,UPI,1481.1,464.61,2,3,Laptop & Accessory,96,1,2,3,1,0,142,200,FALSE,Ignored,0
+50659,44,Female,5,Phone,COD,8068.45,468.32,2,1,Mobile,88,2,6,2,1,0,187,134,TRUE,Ignored,0
+50660,45,Female,9,Mobile Phone,Debit Card,9590,434.48,3,4,Fashion,80,1,8,4,0,0,172,188,FALSE,Responded,0
+50661,19,Male,10,Mobile Phone,Cash on Delivery,3527.02,282.69,3,3,Fashion,22,5,7,2,0,0,161,203,FALSE,Ignored,0
+50662,18,Male,4,Computer,Debit Card,3005.77,290.2,2,5,Mobile Phone,61,2,1,3,3,0,83,146,TRUE,Unsubscribed,0
+50663,23,Male,2,Computer,Debit Card,909.57,480.14,3,3,Fashion,30,4,1,4,3,0,335,210,TRUE,Unsubscribed,0
+50664,42,Female,7,Phone,UPI,6678.46,334.54,2,3,Laptop & Accessory,23,4,0,5,1,0,295,137,FALSE,Ignored,0
+50665,52,Male,14,Mobile Phone,Credit Card,9593.72,19.91,3,4,Fashion,25,10,1,1,2,0,319,205,FALSE,Unsubscribed,1
+50666,33,Male,13,Mobile Phone,Debit Card,1446.33,145.74,2,4,Fashion,68,5,4,1,0,0,169,171,TRUE,Responded,0
+50667,21,Male,6,Mobile Phone,Cash on Delivery,4903.08,201.35,2,3,Fashion,10,1,1,3,2,1,223,196,TRUE,Unsubscribed,1
+50668,64,Female,1,Computer,Credit Card,1072.56,248.53,2,4,Laptop & Accessory,39,2,0,5,1,0,296,145,TRUE,Responded,1
+50669,55,Male,8,Phone,Debit Card,437.69,158.8,2,3,Mobile,65,2,3,5,4,0,1,122,TRUE,Ignored,0
+50670,61,Male,7,Computer,Debit Card,6678.56,115.07,2,3,Laptop & Accessory,80,1,8,1,4,0,162,178,FALSE,Unsubscribed,0
+50671,37,Female,7,Mobile Phone,Debit Card,8690.1,358.19,2,4,Laptop & Accessory,15,3,4,2,4,1,181,167,TRUE,Unsubscribed,0
+50672,42,Male,8,Phone,COD,3441.95,92.89,2,3,Mobile Phone,70,2,9,3,4,1,217,137,FALSE,Responded,1
+50673,24,Male,19,Phone,CC,8770.08,54.64,2,3,Mobile,82,2,1,5,1,0,209,124,TRUE,Responded,1
+50674,38,Male,18,Phone,CC,1258.83,210.92,2,4,Mobile,59,5,4,4,0,1,265,123,TRUE,Responded,1
+50675,24,Male,12,Mobile Phone,Credit Card,2455.81,407.16,2,3,Grocery,68,1,6,3,0,0,97,277,FALSE,Unsubscribed,0
+50676,46,Male,18,Computer,CC,9025.91,382.53,2,4,Mobile,84,2,4,1,2,0,194,126,TRUE,Ignored,1
+50677,69,Male,6,Computer,UPI,5134.25,125.83,2,3,Laptop & Accessory,83,4,2,4,3,1,273,147,TRUE,Ignored,1
+50678,24,Female,19,Computer,Debit Card,6121.1,140.78,1,3,Laptop & Accessory,50,1,7,3,4,0,350,143,FALSE,Responded,0
+50679,20,Male,18,Computer,Debit Card,476.38,493.7,,4,Mobile,2,4,4,3,0,0,264,130,TRUE,Unsubscribed,0
+50680,46,Male,10,Computer,Credit Card,1371.06,46.4,2,1,Grocery,8,3,2,2,1,0,94,269,TRUE,Responded,0
+50681,46,Female,13,Computer,Debit Card,652.33,48.54,3,4,Laptop & Accessory,9,2,5,4,3,0,166,156,TRUE,Responded,0
+50682,56,Male,18,Mobile Phone,Debit Card,9059.51,54.42,2,3,Fashion,32,8,9,1,2,0,130,204,TRUE,Ignored,0
+50683,55,Male,5,Mobile Phone,E wallet,1434.47,168.65,3,4,Fashion,15,1,2,3,2,1,177,187,TRUE,Ignored,0
+50684,23,Female,1,Phone,Debit Card,8511.76,384.28,3,3,Mobile,79,5,9,2,0,0,313,125,FALSE,Responded,0
+50685,63,Female,4,Mobile Phone,Credit Card,3575.24,446.44,3,3,Fashion,21,1,6,1,1,0,170,177,FALSE,Unsubscribed,0
+50686,27,Male,13,Mobile Phone,E wallet,8025.92,466.88,2,3,Grocery,19,4,5,4,1,0,111,275,TRUE,Responded,0
+50687,54,Male,16,Mobile Phone,E wallet,3713.93,133.68,2,3,Fashion,36,8,8,1,0,0,360,174,FALSE,Unsubscribed,0
+50688,31,Female,6,Computer,Debit Card,2750.07,235.49,2,3,Fashion,45,9,8,4,0,0,17,208,TRUE,Unsubscribed,0
+50689,39,Male,8,Computer,Debit Card,1027.24,55.82,2,3,Grocery,32,8,7,1,0,0,299,222,FALSE,Responded,1
+50690,49,Male,15,Mobile Phone,Credit Card,2879,282.55,2,4,Others,66,2,8,4,0,0,186,296,TRUE,Responded,0
+50691,35,Female,6,Phone,Cash on Delivery,4767.65,13.2,3,4,Mobile,91,2,8,3,1,1,126,121,TRUE,Responded,0
+50692,53,Male,18,Computer,Debit Card,8193.34,235.22,3,3,Laptop & Accessory,25,21,0,4,1,0,165,168,TRUE,Unsubscribed,0
+50693,63,Male,19,Computer,Debit Card,4579.9,490.4,3,3,Laptop & Accessory,39,3,1,1,0,0,283,178,FALSE,Responded,0
+50694,69,Male,19,Computer,Debit Card,9717.21,78.81,,1,Mobile,42,1,9,5,1,0,289,128,FALSE,Unsubscribed,0
+50695,26,Male,18,Phone,Debit Card,5462.17,113.27,3,4,Mobile,96,1,9,1,2,0,21,132,TRUE,Unsubscribed,0
+50696,43,Male,2,Computer,E wallet,346.96,146.05,2,3,Laptop & Accessory,57,2,7,1,1,0,171,150,FALSE,Unsubscribed,0
+50697,39,Male,11,Mobile Phone,Cash on Delivery,4212.14,434.73,2,4,Grocery,76,7,8,1,1,0,190,231,TRUE,Unsubscribed,0
+50698,63,Male,18,Computer,Debit Card,6920.1,446.1,3,3,Laptop & Accessory,60,3,5,5,3,0,138,140,TRUE,Ignored,0
+50699,55,Female,10,Computer,Debit Card,2419.49,473.19,3,3,Mobile,36,1,2,1,1,0,275,133,TRUE,Unsubscribed,0
+50700,40,Male,5,Phone,Credit Card,7016.44,131.72,2,5,Laptop & Accessory,76,5,8,1,0,0,338,143,FALSE,Responded,0
+50701,34,Male,9,Mobile Phone,Credit Card,5086.6,232.21,3,4,Laptop & Accessory,48,2,8,3,0,1,119,151,FALSE,Responded,0
+50702,43,Male,19,Phone,UPI,354.8,197.18,,1,Mobile,50,2,7,2,0,0,20,128,TRUE,Responded,0
+50703,64,Male,6,Computer,Debit Card,7766.09,301.97,,4,Mobile,30,2,3,5,4,1,191,127,FALSE,Unsubscribed,0
+50704,55,Male,8,Computer,CC,5647.7,155.02,3,3,Mobile Phone,51,2,6,5,1,0,282,119,TRUE,Responded,1
+50705,19,Female,2,Mobile Phone,E wallet,916.69,416.22,3,3,Laptop & Accessory,11,1,0,1,3,1,140,182,FALSE,Unsubscribed,1
+50706,23,Male,18,Phone,Debit Card,4804.62,454.01,2,3,Mobile Phone,43,4,5,5,0,1,292,148,FALSE,Responded,0
+50707,24,Male,16,Computer,CC,2944.2,450.99,3,3,Mobile,27,2,0,5,0,0,357,126,TRUE,Unsubscribed,1
+50708,30,Female,8,Mobile Phone,Credit Card,8808.85,138.96,2,4,Laptop & Accessory,76,8,9,4,4,0,180,157,TRUE,Ignored,0
+50709,44,Male,17,Phone,Debit Card,2920.78,247.4,2,4,Mobile,58,2,1,2,2,0,285,125,TRUE,Ignored,0
+50710,28,Female,18,Mobile Phone,Debit Card,9422.7,273.55,3,3,Laptop & Accessory,72,2,8,5,4,0,227,157,TRUE,Ignored,0
+50711,32,Male,7,Phone,COD,5506.71,485.26,3,3,Mobile Phone,97,2,3,2,0,0,95,143,TRUE,Unsubscribed,0
+50712,26,Female,9,Mobile Phone,Debit Card,3303.78,224.58,2,4,Fashion,92,2,6,5,0,0,93,173,FALSE,Ignored,1
+50713,25,Female,7,Computer,Credit Card,8154.1,44.21,2,3,Fashion,8,10,9,3,1,0,326,235,TRUE,Ignored,0
+50714,63,Male,3,Computer,Debit Card,7004.26,325.27,2,3,Grocery,56,1,4,2,2,1,88,238,TRUE,Ignored,1
+50715,23,Male,6,Mobile Phone,E wallet,4198.23,95.49,2,3,Laptop & Accessory,85,8,0,4,0,0,347,152,FALSE,Responded,0
+50716,65,Male,5,Phone,CC,6333.22,188.94,2,4,Mobile,18,7,3,5,3,0,277,123,TRUE,Unsubscribed,0
+50717,60,Male,3,Phone,Credit Card,7807.98,263.86,2,3,Mobile Phone,75,9,3,1,0,0,67,136,FALSE,Unsubscribed,0
+50718,21,Female,14,Phone,Debit Card,8530.42,481.76,3,3,Mobile,93,2,5,5,4,1,17,125,FALSE,Responded,1
+50719,28,Male,18,Phone,Credit Card,8182.49,88.23,2,1,Mobile Phone,71,2,6,5,4,0,244,144,FALSE,Unsubscribed,0
+50720,68,Male,7,Mobile Phone,E wallet,1744.16,427.42,3,4,Laptop & Accessory,57,2,0,5,1,0,348,166,TRUE,Responded,0
+50721,45,Female,11,Computer,Credit Card,8301.06,19.2,3,4,Laptop & Accessory,29,4,5,2,0,1,54,144,TRUE,Unsubscribed,0
+50722,43,Male,14,Mobile Phone,Debit Card,680.43,33.47,2,4,Fashion,17,3,4,5,0,0,200,203,TRUE,Unsubscribed,0
+50723,21,Male,16,Computer,Credit Card,2081.69,244.94,3,4,Laptop & Accessory,62,1,9,2,1,0,228,153,TRUE,Responded,0
+50724,32,Male,16,Computer,UPI,6266.97,290.46,2,4,Mobile,69,2,0,4,0,0,166,124,TRUE,Unsubscribed,0
+50725,36,Female,4,Mobile Phone,E wallet,1235.46,102.61,2,5,Laptop & Accessory,70,9,2,3,2,0,39,153,FALSE,Unsubscribed,1
+50726,23,Female,16,Computer,Debit Card,6073.14,100.67,,3,Mobile,89,2,4,3,1,0,139,128,TRUE,Responded,0
+50727,22,Female,8,Mobile Phone,Cash on Delivery,3148.86,362.66,3,3,Others,45,5,5,3,1,0,35,299,TRUE,Unsubscribed,0
+50728,35,Female,9,Phone,CC,4351.72,161.13,,3,Mobile,55,2,1,5,2,0,341,131,FALSE,Ignored,0
+50729,23,Male,5,Phone,Debit Card,3220,358.03,2,3,Mobile,33,2,0,2,3,0,271,126,FALSE,Responded,0
+50730,48,Female,18,Phone,Credit Card,794.72,263.57,2,3,Mobile Phone,77,5,7,3,0,1,31,145,FALSE,Ignored,0
+50731,42,Female,13,Mobile Phone,Debit Card,5057.51,189.8,2,4,Laptop & Accessory,56,2,6,4,0,0,55,165,FALSE,Unsubscribed,0
+50732,21,Male,15,Phone,Debit Card,9639.63,32.43,,4,Mobile,66,2,3,3,3,0,90,130,FALSE,Ignored,0
+50733,23,Male,10,Phone,Debit Card,6156.66,486.53,,3,Mobile,13,2,8,5,4,1,167,129,TRUE,Ignored,1
+50734,58,Female,5,Mobile Phone,Credit Card,3070.32,196.21,2,3,Others,26,4,1,1,1,0,225,286,FALSE,Unsubscribed,0
+50735,54,Female,4,Phone,Debit Card,9565.88,396.92,3,5,Mobile,65,1,2,3,1,1,354,122,FALSE,Unsubscribed,0
+50736,67,Male,19,Computer,Debit Card,3953.45,174.98,,4,Mobile,70,1,6,5,4,1,276,129,FALSE,Responded,1
+50737,42,Female,15,Mobile Phone,E wallet,7005.43,449.91,3,3,Grocery,77,9,0,5,2,0,340,270,TRUE,Unsubscribed,0
+50738,51,Male,8,Computer,Debit Card,6377.72,45.34,3,5,Mobile,31,3,5,1,4,0,230,123,TRUE,Ignored,0
+50739,36,Male,5,Phone,UPI,9533.82,147.88,2,3,Mobile Phone,41,2,4,3,2,0,255,136,FALSE,Unsubscribed,0
+50740,51,Male,9,Computer,Debit Card,9154.57,267.84,3,4,Mobile,18,7,0,3,1,0,54,121,FALSE,Unsubscribed,1
+50741,32,Male,17,Phone,Debit Card,1565.24,310.36,3,3,Laptop & Accessory,29,9,5,4,0,0,201,141,FALSE,Ignored,0
+50742,67,Male,8,Computer,Credit Card,948.29,325.29,3,3,Laptop & Accessory,29,6,8,5,2,0,133,143,TRUE,Responded,0
+50743,25,Female,14,Computer,Credit Card,8115.46,202.03,1,3,Grocery,12,3,6,3,1,0,166,279,FALSE,Responded,0
+50744,61,Male,12,Phone,CC,9058.94,317.56,3,4,Mobile,94,2,2,3,1,0,359,132,TRUE,Ignored,0
+50745,64,Male,9,Mobile Phone,Debit Card,4980.44,434.45,2,3,Others,66,6,2,2,2,0,90,291,TRUE,Responded,0
+50746,66,Male,16,Mobile Phone,Debit Card,6938.54,420.66,3,3,Laptop & Accessory,1,4,3,1,3,1,247,190,FALSE,Ignored,0
+50747,51,Female,1,Phone,Debit Card,790.9,133.62,3,3,Mobile,51,2,6,4,2,0,38,122,TRUE,Responded,1
+50748,35,Female,1,Computer,Credit Card,2276.06,30.38,2,3,Laptop & Accessory,28,2,2,1,1,0,317,145,TRUE,Unsubscribed,0
+50749,47,Male,10,Phone,Debit Card,1578.82,127.43,,5,Mobile,57,2,2,2,0,0,231,127,FALSE,Unsubscribed,0
+50750,30,Male,12,Phone,Debit Card,6051.49,411.56,2,3,Laptop & Accessory,80,2,7,2,4,0,117,135,FALSE,Ignored,0
+50751,64,Male,3,Phone,UPI,2055.64,332.87,2,3,Laptop & Accessory,53,2,8,2,3,0,280,145,FALSE,Unsubscribed,0
+50752,50,Male,1,Phone,E wallet,692.48,71.01,,1,Mobile,17,2,6,3,1,0,122,127,TRUE,Responded,0
+50753,52,Male,8,Mobile Phone,COD,3091.85,90.5,2,3,Laptop & Accessory,91,3,0,1,0,0,334,174,TRUE,Responded,0
+50754,69,Male,16,Computer,Credit Card,6804.4,139.92,3,1,Laptop & Accessory,78,8,8,1,3,0,161,163,FALSE,Responded,0
+50755,41,Male,6,Mobile Phone,E wallet,5820.85,428.6,2,1,Laptop & Accessory,26,1,0,5,0,1,21,152,FALSE,Responded,0
+50756,43,Female,11,Computer,UPI,3374.18,205,,4,Mobile,24,2,8,3,1,0,285,127,TRUE,Unsubscribed,0
+50757,64,Female,14,Computer,Debit Card,8351.44,176.43,2,3,Laptop & Accessory,61,5,0,4,0,1,114,150,FALSE,Responded,0
+50758,68,Female,13,Mobile Phone,Cash on Delivery,2835.06,120.57,3,5,Fashion,72,3,9,4,1,1,244,203,TRUE,Responded,0
+50759,61,Male,4,Phone,CC,2679.42,340.22,,3,Mobile,20,1,9,5,0,0,65,128,FALSE,Responded,0
+50760,59,Female,2,Mobile Phone,COD,5643.48,484.34,2,4,Laptop & Accessory,66,8,4,2,0,0,338,169,FALSE,Unsubscribed,0
+50761,64,Male,3,Phone,Debit Card,4834.33,48.88,2,3,Laptop & Accessory,63,1,7,3,3,0,81,150,FALSE,Responded,0
+50762,18,Male,7,Phone,Credit Card,4515.13,256.34,3,3,Mobile Phone,41,1,7,1,4,1,214,136,TRUE,Responded,0
+50763,30,Female,18,Computer,Credit Card,1642.28,452.25,2,3,Fashion,69,4,7,5,3,1,330,232,TRUE,Unsubscribed,0
+50764,27,Female,14,Computer,E wallet,5096,141.11,3,4,Fashion,16,5,0,1,2,1,117,204,TRUE,Responded,0
+50765,36,Male,10,Phone,Debit Card,2664.29,176.13,2,3,Mobile,22,2,3,1,2,1,108,122,TRUE,Unsubscribed,0
+50766,22,Female,10,Computer,Debit Card,3982.58,251.79,2,3,Fashion,20,8,2,1,1,0,323,205,FALSE,Responded,0
+50767,25,Female,6,Mobile Phone,Debit Card,7362.35,78.66,3,1,Mobile,29,2,4,2,0,0,130,120,FALSE,Ignored,0
+50768,21,Female,15,Computer,CC,9374.94,403.85,3,4,Mobile Phone,98,2,5,4,3,1,130,119,FALSE,Responded,1
+50769,66,Female,16,Phone,Debit Card,7761.24,133.39,3,3,Mobile Phone,11,2,5,2,0,0,360,138,TRUE,Responded,0
+50770,30,Male,8,Mobile Phone,Debit Card,4115.78,38.82,2,3,Grocery,25,4,2,2,4,0,215,278,TRUE,Responded,0
+50771,55,Male,5,Mobile Phone,Credit Card,5971.03,335.73,3,3,Laptop & Accessory,26,2,4,4,0,1,127,168,TRUE,Responded,0
+50772,63,Female,4,Mobile Phone,Credit Card,7490.33,277.2,3,4,Laptop & Accessory,54,2,8,4,1,0,331,168,TRUE,Ignored,0
+50773,66,Female,8,Mobile Phone,Debit Card,4200.79,465.52,2,4,Laptop & Accessory,8,6,0,5,3,0,133,152,TRUE,Ignored,0
+50774,63,Male,10,Mobile Phone,Debit Card,3666.46,393.49,3,5,Others,21,4,0,2,2,0,46,297,FALSE,Unsubscribed,0
+50775,36,Male,10,Mobile Phone,Credit Card,1438.91,27.65,2,4,Others,88,3,1,3,4,0,312,287,TRUE,Unsubscribed,0
+50776,69,Male,8,Computer,COD,7388.98,269.6,2,3,Mobile Phone,63,2,4,1,0,0,88,137,TRUE,Unsubscribed,0
+50777,67,Male,12,Phone,COD,8401.24,435.24,3,1,Mobile,63,6,9,3,4,0,64,126,TRUE,Ignored,0
+50778,25,Male,7,Phone,Debit Card,3234.19,18.98,3,3,Mobile,79,2,1,3,4,0,113,125,TRUE,Ignored,0
+50779,44,Male,14,Mobile Phone,Debit Card,7856.73,193,2,3,Laptop & Accessory,16,2,3,3,4,1,329,166,TRUE,Unsubscribed,0
+50780,67,Male,3,Mobile Phone,Debit Card,6141.11,418.21,3,4,Others,5,7,8,4,4,0,291,283,TRUE,Unsubscribed,0
+50781,64,Female,8,Mobile Phone,Debit Card,7862.42,132.17,2,4,Grocery,95,4,8,5,3,0,302,261,TRUE,Ignored,0
+50782,47,Female,4,Phone,COD,4172.24,15.97,2,1,Mobile,97,1,3,2,4,0,164,126,FALSE,Responded,0
+50783,21,Male,13,Mobile Phone,E wallet,7501.01,176.88,2,3,Others,86,8,5,4,4,0,187,282,FALSE,Unsubscribed,0
+50784,28,Male,1,Mobile Phone,E wallet,4144.24,26.95,2,1,Fashion,2,1,8,5,3,1,189,184,FALSE,Unsubscribed,0
+50785,38,Female,6,Phone,Debit Card,978.7,458.69,,1,Mobile,51,2,2,5,1,1,183,130,FALSE,Unsubscribed,0
+50786,60,Male,1,Mobile Phone,Debit Card,5550.73,427.86,2,3,Mobile Phone,24,2,3,5,2,0,24,112,TRUE,Responded,0
+50787,19,Male,4,Computer,Debit Card,4597.85,216.74,3,5,Mobile Phone,65,2,8,5,2,1,356,111,FALSE,Ignored,1
+50788,38,Male,11,Phone,Debit Card,2603.51,209.83,,3,Mobile,15,2,0,1,4,1,121,129,TRUE,Responded,0
+50789,34,Female,18,Mobile Phone,E wallet,8931.92,489.92,3,5,Others,92,3,5,1,4,1,93,288,FALSE,Responded,1
+50790,60,Male,17,Computer,Credit Card,3890.25,249.74,2,4,Grocery,78,2,8,4,2,1,37,236,TRUE,Responded,0
+50791,68,Female,9,Computer,Debit Card,487.35,223.98,2,4,Mobile,38,2,0,2,0,0,91,126,TRUE,Ignored,1
+50792,46,Female,19,Mobile Phone,E wallet,3883.14,206.23,2,4,Others,53,3,0,2,0,0,149,288,FALSE,Ignored,0
+50793,44,Female,16,Phone,E wallet,4302.65,165.67,2,3,Laptop & Accessory,99,1,0,4,4,1,216,145,FALSE,Responded,0
+50794,41,Male,11,Computer,Debit Card,8630.21,178.18,2,3,Others,77,5,5,2,2,1,254,298,TRUE,Responded,0
+50795,66,Male,6,Mobile Phone,Credit Card,8011.91,227.75,3,3,Fashion,3,7,5,4,0,0,323,205,TRUE,Ignored,0
+50796,20,Female,14,Computer,Credit Card,2079.67,462.53,2,3,Laptop & Accessory,98,5,9,2,0,0,203,144,FALSE,Unsubscribed,0
+50797,56,Male,4,Computer,CC,8406.39,440.15,2,3,Mobile,79,1,7,3,2,1,126,122,TRUE,Ignored,0
+50798,27,Male,5,Mobile Phone,Debit Card,2554.48,383.76,3,1,Others,18,2,7,1,0,0,242,292,TRUE,Responded,0
+50799,20,Male,4,Computer,Debit Card,3485.15,394.05,2,4,Laptop & Accessory,45,5,8,4,2,0,292,145,TRUE,Ignored,0
+50800,62,Male,4,Phone,Debit Card,860.5,217.72,3,3,Mobile,72,1,0,5,3,1,52,135,TRUE,Responded,0
+50801,59,Female,8,Phone,CC,648.03,295.58,3,1,Laptop & Accessory,28,7,7,2,4,1,275,124,TRUE,Ignored,0
+50802,43,Female,11,Mobile Phone,E wallet,6840.52,449.49,2,4,Fashion,24,4,2,4,2,0,275,202,TRUE,Unsubscribed,0
+50803,54,Female,9,Mobile Phone,Debit Card,9241.08,172.13,2,3,Laptop & Accessory,66,10,4,3,1,1,283,154,TRUE,Unsubscribed,0
+50804,44,Female,9,Mobile Phone,Credit Card,4980.87,204.73,3,3,Fashion,72,2,1,3,2,0,256,180,TRUE,Ignored,1
+50805,22,Male,18,Computer,Debit Card,8456.53,139.89,2,4,Mobile Phone,58,2,6,1,3,1,59,139,TRUE,Responded,0
+50806,59,Female,18,Computer,CC,7958.14,32.02,,4,Mobile,76,1,7,4,1,0,290,128,FALSE,Unsubscribed,0
+50807,28,Female,6,Computer,Credit Card,6680.32,17.95,3,3,Laptop & Accessory,58,8,9,4,0,1,168,147,TRUE,Responded,0
+50808,30,Female,17,Phone,COD,9784.47,143.49,2,3,Mobile,11,4,2,2,1,1,340,133,TRUE,Unsubscribed,1
+50809,58,Male,4,Phone,Cash on Delivery,8041.66,471.18,2,3,Mobile,9,3,6,5,1,0,340,121,TRUE,Ignored,0
+50810,51,Female,19,Phone,CC,2820.96,168.88,2,3,Mobile,15,2,3,3,0,0,5,121,TRUE,Ignored,0
+50811,55,Male,4,Mobile Phone,Credit Card,7911.24,445.4,2,1,Laptop & Accessory,94,2,3,5,1,0,204,162,FALSE,Unsubscribed,0
+50812,57,Female,17,Computer,Credit Card,6957.35,67.88,2,3,Others,96,4,9,3,0,0,102,281,FALSE,Ignored,0
+50813,50,Female,1,Mobile Phone,Credit Card,4055.25,340.59,3,4,Grocery,27,7,6,2,1,1,86,271,TRUE,Ignored,0
+50814,51,Male,16,Phone,Debit Card,860.29,171,2,3,Mobile,52,2,9,1,0,0,6,124,FALSE,Ignored,0
+50815,44,Male,3,Phone,Debit Card,2222.16,447.32,3,3,Laptop & Accessory,42,2,9,4,2,0,143,149,FALSE,Unsubscribed,1
+50816,53,Male,12,Phone,Credit Card,7992.66,351.89,3,3,Mobile Phone,81,1,1,3,3,0,79,139,TRUE,Responded,1
+50817,43,Female,19,Phone,COD,2560,177.64,2,4,Laptop & Accessory,42,1,5,3,3,0,75,146,TRUE,Responded,0
+50818,68,Female,1,Mobile Phone,COD,9978.79,248.89,3,3,Fashion,46,4,4,4,1,0,146,171,FALSE,Ignored,0
+50819,42,Female,14,Phone,Debit Card,6970.48,124.97,2,3,Mobile,96,7,3,1,3,0,110,134,TRUE,Responded,0
+50820,36,Female,9,Computer,Debit Card,4824.5,24.75,2,5,Laptop & Accessory,27,1,9,3,3,0,216,167,FALSE,Responded,0
+50821,38,Female,2,Mobile Phone,Debit Card,5747.32,41.72,2,3,Grocery,70,5,4,5,1,1,195,269,TRUE,Responded,0
+50822,48,Male,16,Mobile Phone,E wallet,6147.64,407.77,2,4,Fashion,78,3,1,2,0,1,215,191,TRUE,Unsubscribed,1
+50823,46,Male,7,Mobile Phone,Debit Card,9692.55,372.39,3,3,Fashion,10,10,9,1,4,1,317,184,TRUE,Responded,1
+50824,26,Female,7,Mobile Phone,Credit Card,1701.24,336.32,3,3,Fashion,22,2,0,5,2,1,147,219,FALSE,Responded,0
+50825,36,Male,13,Phone,Debit Card,2796.72,457.44,2,3,Laptop & Accessory,3,1,1,3,3,0,209,145,FALSE,Responded,0
+50826,43,Female,19,Computer,Debit Card,7124.95,133.67,2,3,Fashion,33,2,0,1,1,1,120,199,FALSE,Ignored,0
+50827,42,Male,19,Computer,Credit Card,2474.59,18.85,2,5,Laptop & Accessory,69,2,0,4,0,0,49,162,FALSE,Ignored,0
+50828,57,Female,18,Computer,Debit Card,8725.84,458.2,2,3,Mobile,41,2,5,1,1,1,323,123,TRUE,Ignored,1
+50829,60,Male,6,Phone,Debit Card,3530.69,493.42,2,3,Mobile,7,5,9,3,4,0,329,124,FALSE,Ignored,1
+50830,46,Male,15,Computer,Debit Card,1890.31,91.9,2,3,Grocery,66,1,4,2,3,1,214,279,TRUE,Unsubscribed,0
+50831,42,Female,3,Mobile Phone,Credit Card,571.45,334.31,2,5,Others,54,5,5,5,4,0,100,292,TRUE,Ignored,0
+50832,36,Male,2,Mobile Phone,Debit Card,5996.39,59.61,2,3,Others,53,7,2,4,0,0,298,297,TRUE,Ignored,0
+50833,21,Male,7,Computer,Debit Card,8270.29,37.1,3,3,Mobile,63,10,0,1,2,0,80,135,FALSE,Unsubscribed,0
+50834,62,Male,19,Mobile Phone,Debit Card,2810.55,187.7,2,3,Fashion,64,1,6,2,3,0,180,185,TRUE,Unsubscribed,0
+50835,37,Male,10,Phone,Debit Card,9183.64,59.29,3,3,Laptop & Accessory,77,2,4,2,0,0,117,147,FALSE,Unsubscribed,0
+50836,63,Female,6,Computer,E wallet,7601.57,64.48,3,3,Laptop & Accessory,59,1,4,5,1,0,87,141,TRUE,Responded,0
+50837,18,Male,18,Computer,Debit Card,706.88,252.05,2,3,Laptop & Accessory,46,2,2,1,1,1,346,142,FALSE,Unsubscribed,0
+50838,28,Male,5,Mobile Phone,Debit Card,5769.07,269.64,2,3,Grocery,87,2,8,1,2,1,328,240,FALSE,Responded,0
+50839,21,Female,2,Mobile Phone,Debit Card,5717.67,202.92,2,3,Laptop & Accessory,77,4,9,5,2,0,217,169,TRUE,Unsubscribed,0
+50840,24,Female,5,Mobile Phone,Credit Card,2103.49,335.88,3,3,Laptop & Accessory,17,2,6,2,3,0,300,161,TRUE,Ignored,0
+50841,45,Male,8,Phone,Credit Card,3411.99,493.48,3,3,Mobile Phone,68,4,7,1,0,0,16,137,FALSE,Unsubscribed,0
+50842,53,Female,5,Mobile Phone,Credit Card,4636.96,422.51,2,4,Fashion,87,8,7,4,0,1,240,200,FALSE,Unsubscribed,1
+50843,24,Male,16,Phone,Debit Card,575.97,384.44,2,3,Mobile,25,4,6,3,2,0,332,124,TRUE,Unsubscribed,0
+50844,37,Female,3,Computer,E wallet,1582.79,213.99,2,1,Laptop & Accessory,6,3,6,1,4,0,24,146,TRUE,Responded,0
+50845,52,Male,13,Mobile Phone,Debit Card,1723.64,171.63,2,3,Fashion,85,2,0,4,2,0,171,179,TRUE,Ignored,0
+50846,68,Female,6,Phone,CC,3854.43,289.94,3,1,Mobile,11,9,7,2,2,0,90,125,TRUE,Unsubscribed,0
+50847,68,Female,4,Mobile Phone,Cash on Delivery,7498.84,161.04,2,4,Grocery,61,4,5,5,1,0,97,231,TRUE,Responded,0
+50848,56,Female,10,Computer,Debit Card,8329.91,93.27,3,3,Mobile Phone,90,2,8,4,2,0,232,116,TRUE,Ignored,0
+50849,38,Female,18,Mobile Phone,Credit Card,1712.21,435.43,2,4,Laptop & Accessory,27,1,9,4,4,0,147,154,FALSE,Unsubscribed,0
+50850,61,Male,18,Computer,Debit Card,7543.87,69.15,2,5,Laptop & Accessory,26,4,9,1,1,0,306,151,TRUE,Unsubscribed,0
+50851,18,Male,12,Mobile Phone,E wallet,6740.03,492.33,2,1,Grocery,95,7,8,5,1,1,301,237,TRUE,Responded,1
+50852,54,Male,3,Mobile Phone,Debit Card,8917.81,137.1,3,3,Grocery,26,5,0,5,4,1,204,234,FALSE,Responded,0
+50853,63,Female,12,Computer,Cash on Delivery,9691.03,371.25,3,4,Mobile,70,2,8,4,4,0,44,120,TRUE,Unsubscribed,0
+50854,59,Female,12,Mobile Phone,Credit Card,1332.16,39.94,2,1,Laptop & Accessory,28,6,7,4,1,0,291,164,TRUE,Ignored,0
+50855,20,Male,2,Mobile Phone,Credit Card,898.67,403.54,2,3,Laptop & Accessory,65,5,4,2,1,0,28,154,TRUE,Responded,0
+50856,51,Female,18,Computer,Debit Card,8017.33,262.73,,4,Mobile,34,8,0,1,1,0,329,128,FALSE,Ignored,1
+50857,30,Female,2,Computer,E wallet,1705.49,484.09,3,3,Laptop & Accessory,3,1,0,5,4,1,265,146,FALSE,Responded,1
+50858,33,Male,2,Computer,Debit Card,2026.29,251.24,2,1,Mobile,74,2,7,3,0,0,336,126,FALSE,Unsubscribed,0
+50859,51,Female,8,Mobile Phone,COD,8832.16,391.06,3,3,Laptop & Accessory,79,2,5,4,3,0,78,167,TRUE,Unsubscribed,0
+50860,41,Male,1,Phone,Debit Card,9395.75,123.93,2,4,Laptop & Accessory,62,2,0,3,3,0,55,147,TRUE,Unsubscribed,0
+50861,30,Male,13,Mobile Phone,Credit Card,3252.87,180.63,3,3,Laptop & Accessory,40,2,7,4,2,1,302,162,FALSE,Responded,1
+50862,23,Male,18,Mobile Phone,Debit Card,8437.46,396.44,2,4,Laptop & Accessory,24,4,2,5,4,1,53,161,FALSE,Ignored,0
+50863,56,Male,8,Computer,E wallet,8602.68,437.66,2,3,Fashion,53,3,2,1,1,0,126,206,TRUE,Ignored,0
+50864,19,Female,13,Computer,Debit Card,6093.37,62.14,3,3,Laptop & Accessory,70,4,0,3,0,1,233,155,TRUE,Responded,0
+50865,28,Male,7,Phone,Debit Card,5704.28,348.69,,3,Mobile,35,8,6,2,2,1,187,130,TRUE,Responded,0
+50866,24,Male,3,Computer,Debit Card,5800.8,490.41,3,3,Laptop & Accessory,96,7,6,5,2,0,212,200,FALSE,Ignored,0
+50867,24,Male,10,Phone,E wallet,3082.76,473.96,2,3,Laptop & Accessory,3,1,7,3,1,1,121,141,FALSE,Responded,0
+50868,56,Male,19,Computer,Debit Card,6226.78,188.52,3,3,Fashion,79,4,2,4,4,0,255,209,FALSE,Responded,0
+50869,56,Male,13,Mobile Phone,Debit Card,2511.44,156.42,3,1,Laptop & Accessory,28,3,1,1,3,0,305,162,TRUE,Responded,0
+50870,29,Female,19,Computer,Credit Card,1858.56,75.91,2,1,Grocery,28,3,9,4,0,1,348,232,FALSE,Unsubscribed,0
+50871,68,Female,8,Phone,Credit Card,4188.21,493.85,3,4,Laptop & Accessory,65,2,5,1,1,1,22,141,FALSE,Responded,0
+50872,39,Female,18,Mobile Phone,E wallet,7087.23,386.73,3,4,Laptop & Accessory,86,2,4,4,0,1,145,158,TRUE,Unsubscribed,0
+50873,68,Female,15,Phone,Debit Card,6252.13,316.64,2,3,Mobile,18,2,3,3,4,1,167,124,FALSE,Unsubscribed,1
+50874,68,Male,7,Phone,Credit Card,9652.33,265.29,2,4,Mobile Phone,73,1,9,2,4,0,197,139,TRUE,Unsubscribed,0
+50875,69,Female,7,Mobile Phone,UPI,6499.91,405.13,2,3,Grocery,9,1,7,4,2,0,352,268,FALSE,Responded,0
+50876,20,Female,3,Phone,UPI,1499.01,329.31,,3,Mobile,46,10,5,3,1,0,280,130,FALSE,Responded,0
+50877,30,Female,18,Phone,Credit Card,1696.06,248.93,3,3,Mobile Phone,14,5,5,3,2,0,174,136,TRUE,Ignored,0
+50878,47,Male,14,Computer,Debit Card,1021.36,226.41,2,3,Fashion,21,3,4,4,2,0,228,194,FALSE,Responded,0
+50879,27,Male,17,Phone,COD,1992.62,195.51,2,3,Mobile,22,5,4,2,0,0,18,132,FALSE,Responded,0
+50880,69,Male,9,Phone,UPI,6019.71,485.23,3,1,Mobile Phone,88,1,3,1,1,0,109,136,TRUE,Unsubscribed,0
+50881,26,Male,10,Mobile Phone,UPI,8399.04,458.25,2,4,Fashion,2,2,9,3,1,0,290,180,FALSE,Responded,0
+50882,23,Male,8,Computer,Debit Card,8949.29,173.6,3,4,Laptop & Accessory,39,4,5,3,4,0,25,143,TRUE,Responded,1
+50883,61,Female,19,Computer,UPI,4060.43,41.79,2,3,Fashion,57,1,5,3,3,1,335,176,FALSE,Responded,1
+50884,19,Female,2,Mobile Phone,Credit Card,5629.97,86.21,2,3,Grocery,76,7,9,3,1,0,229,273,TRUE,Ignored,0
+50885,61,Female,12,Mobile Phone,Credit Card,8111.08,302.13,3,3,Others,25,4,3,4,2,1,158,297,FALSE,Unsubscribed,0
+50886,33,Male,4,Mobile Phone,Credit Card,3189.5,364.83,2,1,Grocery,94,3,3,1,1,0,107,247,FALSE,Ignored,0
+50887,30,Female,3,Mobile Phone,E wallet,5997.12,432.95,2,3,Laptop & Accessory,32,4,3,4,3,1,309,193,TRUE,Unsubscribed,0
+50888,65,Female,1,Computer,Debit Card,1823.42,455.76,2,5,Mobile Phone,22,2,6,2,0,0,286,114,FALSE,Responded,1
+50889,30,Female,15,Phone,E wallet,4817.75,468.06,3,3,Laptop & Accessory,93,8,9,1,4,0,119,148,FALSE,Ignored,0
+50890,39,Female,1,Mobile Phone,Debit Card,1813.42,489.09,3,3,Grocery,77,4,2,5,4,0,288,264,TRUE,Ignored,0
+50891,36,Male,9,Computer,UPI,4678.02,391.7,,3,Mobile,93,6,6,2,1,0,68,130,TRUE,Unsubscribed,0
+50892,43,Female,5,Mobile Phone,Debit Card,4028.51,369.27,2,4,Mobile Phone,66,2,7,4,0,0,119,113,FALSE,Responded,1
+50893,31,Male,19,Phone,Debit Card,4389.32,176.8,3,3,Mobile,96,1,4,3,1,0,141,121,TRUE,Responded,0
+50894,48,Male,6,Mobile Phone,Debit Card,2512.75,465.16,2,4,Laptop & Accessory,55,2,6,4,4,0,228,158,FALSE,Unsubscribed,0
+50895,46,Female,8,Mobile Phone,E wallet,1446.83,77.34,3,4,Laptop & Accessory,11,5,4,4,0,0,149,156,FALSE,Responded,0
+50896,62,Male,3,Phone,COD,2829.09,276.98,3,3,Mobile,93,8,8,4,1,0,39,134,TRUE,Responded,0
+50897,59,Male,2,Phone,Debit Card,2471.84,231.51,3,4,Mobile Phone,49,4,0,2,4,0,306,144,FALSE,Responded,1
+50898,39,Male,14,Computer,COD,7369.53,446.24,2,1,Mobile,22,1,8,5,1,0,301,135,FALSE,Ignored,0
+50899,24,Female,11,Phone,Debit Card,7198.05,324.79,2,3,Mobile,76,3,8,3,2,0,285,121,FALSE,Responded,0
+50900,54,Female,18,Mobile Phone,Credit Card,5886.38,198.7,2,3,Grocery,5,4,2,3,3,0,137,272,TRUE,Ignored,0
+50901,66,Female,7,Phone,Credit Card,1004.2,55.98,2,3,Laptop & Accessory,79,2,6,4,2,1,211,142,TRUE,Responded,0
+50902,58,Male,1,Mobile Phone,E wallet,5705.99,151.46,3,3,Laptop & Accessory,54,5,3,4,0,0,139,192,FALSE,Ignored,0
+50903,44,Female,8,Phone,Debit Card,884.45,258.95,2,4,Mobile,56,6,6,4,2,0,82,133,TRUE,Unsubscribed,0
+50904,48,Male,6,Phone,CC,279.91,203.65,2,1,Mobile,43,3,2,4,4,1,234,121,FALSE,Ignored,0
+50905,23,Male,11,Computer,UPI,3590.7,475.03,2,3,Laptop & Accessory,96,4,4,2,4,0,345,140,TRUE,Unsubscribed,0
+50906,33,Male,10,Mobile Phone,Debit Card,2481.39,302.68,2,3,Fashion,44,2,2,2,1,0,58,208,FALSE,Responded,0
+50907,55,Male,2,Mobile Phone,E wallet,5987.01,356.43,2,3,Fashion,73,5,5,1,2,0,55,201,TRUE,Responded,1
+50908,55,Female,1,Computer,Debit Card,9293.56,301.86,2,4,Mobile Phone,23,3,0,1,0,1,141,136,TRUE,Responded,1
+50909,67,Female,4,Computer,Debit Card,7226.54,208.5,3,1,Fashion,40,2,5,2,3,0,206,174,FALSE,Ignored,1
+50910,49,Male,9,Mobile Phone,Credit Card,7696.87,40.06,3,5,Fashion,41,3,4,4,2,1,3,209,FALSE,Unsubscribed,0
+50911,50,Female,13,Phone,CC,9513.84,25.18,3,1,Mobile,35,10,8,3,0,0,92,121,FALSE,Ignored,0
+50912,66,Male,4,Computer,Debit Card,6377.5,330.33,3,3,Mobile Phone,36,7,5,2,2,1,29,137,FALSE,Responded,1
+50913,34,Male,3,Mobile Phone,Cash on Delivery,5819.54,350.47,2,3,Fashion,53,5,9,2,2,1,277,194,FALSE,Unsubscribed,0
+50914,50,Male,18,Mobile Phone,E wallet,6058.49,98.15,3,3,Laptop & Accessory,96,5,1,1,1,0,193,155,FALSE,Responded,0
+50915,28,Female,2,Phone,COD,8671.47,320.45,,3,Mobile,60,2,7,5,4,0,41,127,TRUE,Unsubscribed,1
+50916,30,Male,9,Computer,Credit Card,3942.18,15.3,2,4,Fashion,37,3,0,3,3,0,233,238,FALSE,Responded,0
+50917,47,Male,7,Mobile Phone,Credit Card,7973.83,227.84,2,3,Laptop & Accessory,50,1,6,3,3,0,235,185,FALSE,Ignored,0
+50918,18,Male,2,Computer,Debit Card,6557.34,146.76,,4,Mobile,19,4,2,5,2,0,22,132,TRUE,Responded,0
+50919,47,Male,12,Mobile Phone,Credit Card,3115.26,442.59,2,1,Grocery,54,5,2,1,1,0,24,266,FALSE,Responded,0
+50920,44,Male,17,Mobile Phone,COD,235.52,160.98,3,3,Laptop & Accessory,14,3,6,3,2,0,82,167,FALSE,Unsubscribed,0
+50921,57,Male,14,Phone,CC,2178.21,201.49,3,3,Mobile,55,3,0,1,2,0,158,123,TRUE,Unsubscribed,0
+50922,40,Male,14,Phone,Debit Card,7029.89,88.4,2,3,Mobile,64,2,2,1,0,0,227,134,FALSE,Responded,0
+50923,37,Male,15,Computer,Credit Card,5838.93,74.03,2,3,Laptop & Accessory,58,1,5,4,1,0,156,144,TRUE,Responded,0
+50924,23,Male,17,Phone,UPI,2818.49,177.47,2,5,Laptop & Accessory,48,4,9,5,0,0,167,148,FALSE,Responded,0
+50925,54,Male,4,Mobile Phone,Debit Card,4399.59,377.38,3,3,Laptop & Accessory,12,9,1,5,2,0,247,153,TRUE,Responded,0
+50926,37,Female,14,Computer,Credit Card,6645.37,43.31,3,3,Mobile Phone,86,2,8,4,3,0,10,137,TRUE,Responded,0
+50927,54,Female,7,Computer,E wallet,1358.15,39.16,3,3,Laptop & Accessory,65,8,0,1,2,0,315,148,FALSE,Responded,0
+50928,23,Male,19,Computer,Cash on Delivery,4379.57,407.43,3,3,Mobile Phone,42,2,6,1,3,0,254,113,FALSE,Ignored,0
+50929,46,Male,2,Phone,Debit Card,4224.58,266.86,3,1,Laptop & Accessory,18,1,9,3,0,0,291,149,FALSE,Unsubscribed,0
+50930,30,Male,9,Mobile Phone,Debit Card,5471.75,431.29,2,3,Fashion,18,4,6,5,2,0,251,205,TRUE,Unsubscribed,0
+50931,44,Male,15,Computer,Credit Card,5266.95,310.61,3,3,Grocery,34,8,5,3,2,0,56,270,FALSE,Responded,0
+50932,67,Male,19,Computer,COD,3740.49,48.44,,3,Mobile,41,4,3,3,0,0,176,129,TRUE,Unsubscribed,1
+50933,37,Female,10,Computer,COD,7651.06,95.19,2,3,Laptop & Accessory,36,6,3,5,3,0,218,158,TRUE,Responded,1
+50934,30,Female,8,Phone,Credit Card,765.57,226.62,2,4,Laptop & Accessory,35,1,6,3,0,1,150,146,FALSE,Unsubscribed,1
+50935,56,Male,13,Phone,Debit Card,451.83,102.35,3,3,Mobile,92,2,1,5,2,0,32,124,FALSE,Ignored,0
+50936,25,Male,10,Computer,CC,4260.57,434.17,2,3,Mobile,33,3,4,1,1,1,12,132,FALSE,Unsubscribed,1
+50937,34,Female,17,Computer,Debit Card,8977.27,490.55,3,3,Mobile,25,2,6,1,2,0,142,120,FALSE,Unsubscribed,0
+50938,47,Male,2,Computer,Credit Card,2847.94,313.28,2,3,Fashion,10,6,2,2,0,1,181,202,FALSE,Responded,0
+50939,18,Male,18,Mobile Phone,Debit Card,1805.86,327.92,3,4,Laptop & Accessory,92,2,6,3,2,0,16,186,TRUE,Unsubscribed,0
+50940,41,Male,2,Phone,Debit Card,9289.26,445.68,2,3,Mobile,46,1,2,3,3,0,21,121,TRUE,Ignored,0
+50941,33,Male,19,Phone,Debit Card,1765.41,342.15,1,3,Laptop & Accessory,27,1,2,5,3,1,361,140,FALSE,Unsubscribed,0
+50942,28,Female,16,Phone,Credit Card,3810.92,198.88,2,4,Mobile Phone,14,9,3,3,2,0,145,138,FALSE,Unsubscribed,0
+50943,21,Female,15,Phone,Credit Card,7317.25,127.52,3,3,Laptop & Accessory,37,4,2,2,1,1,39,146,FALSE,Unsubscribed,0
+50944,21,Male,8,Computer,CC,2683.15,210.58,2,4,Mobile,43,8,1,4,0,0,47,126,TRUE,Ignored,1
+50945,34,Male,7,Mobile Phone,Debit Card,2375.51,483.74,3,4,Mobile Phone,25,2,0,4,0,0,84,116,TRUE,Ignored,0
+50946,66,Male,18,Computer,Debit Card,4036.91,49.33,2,3,Laptop & Accessory,49,1,7,1,1,0,70,149,FALSE,Ignored,0
+50947,27,Female,9,Phone,Credit Card,7894.91,60.44,2,4,Laptop & Accessory,52,5,1,2,0,0,275,148,TRUE,Ignored,0
+50948,38,Female,16,Computer,Debit Card,9118.74,334.59,3,3,Mobile,93,1,4,1,4,0,91,132,TRUE,Responded,0
+50949,55,Male,2,Mobile Phone,Debit Card,409.8,305.97,3,5,Laptop & Accessory,32,2,7,5,0,0,232,165,TRUE,Responded,0
+50950,66,Male,8,Mobile Phone,Debit Card,1734.57,371.28,3,3,Laptop & Accessory,33,3,1,4,1,1,97,164,FALSE,Responded,0
+50951,35,Male,9,Mobile Phone,Credit Card,9590.15,451.45,0,3,Fashion,45,3,1,5,4,0,44,212,TRUE,Responded,0
+50952,27,Female,9,Computer,Credit Card,5968.63,262.13,2,3,Grocery,91,4,1,2,1,0,169,260,TRUE,Unsubscribed,0
+50953,62,Male,1,Phone,COD,5558.96,181.65,3,4,Mobile,9,7,7,1,0,0,58,124,TRUE,Responded,1
+50954,33,Male,10,Mobile Phone,Debit Card,8154.08,264.97,2,3,Grocery,18,4,4,1,0,0,75,263,TRUE,Unsubscribed,0
+50955,56,Female,3,Mobile Phone,Debit Card,493.85,95.44,2,3,Fashion,23,5,6,3,4,0,224,184,FALSE,Unsubscribed,0
+50956,32,Female,1,Mobile Phone,Debit Card,236.98,451.17,2,3,Grocery,30,9,5,2,3,0,327,266,TRUE,Responded,0
+50957,51,Female,11,Mobile Phone,Debit Card,9678.19,344.33,3,4,Fashion,1,2,8,2,1,0,295,186,FALSE,Ignored,0
+50958,22,Male,9,Phone,Debit Card,8302.85,436.63,3,3,Laptop & Accessory,7,1,5,1,2,0,154,123,FALSE,Responded,0
+50959,34,Male,14,Mobile Phone,Debit Card,7499.08,158.18,2,3,Mobile,80,4,5,5,1,0,124,120,FALSE,Ignored,1
+50960,54,Male,4,Mobile Phone,COD,1641.44,447.94,3,4,Fashion,22,2,8,3,4,1,74,171,FALSE,Unsubscribed,0
+50961,25,Female,6,Computer,Debit Card,4818.38,84.44,2,3,Mobile Phone,83,2,8,1,1,0,317,141,TRUE,Unsubscribed,1
+50962,41,Male,13,Computer,Credit Card,9379.21,191.4,2,5,Grocery,68,2,5,4,3,1,101,244,TRUE,Unsubscribed,0
+50963,45,Male,1,Phone,COD,9342.64,45.07,2,3,Mobile,24,1,1,3,1,1,72,123,TRUE,Responded,0
+50964,64,Male,4,Phone,Credit Card,191.55,309.44,3,4,Mobile Phone,59,5,2,3,1,0,148,148,FALSE,Responded,0
+50965,25,Male,12,Phone,Credit Card,7549.66,128.77,2,3,Laptop & Accessory,12,2,0,1,1,0,262,143,FALSE,Ignored,0
+50966,40,Female,1,Mobile Phone,UPI,161.75,124.79,2,5,Laptop & Accessory,55,4,8,4,2,0,263,197,TRUE,Ignored,0
+50967,52,Male,9,Phone,Debit Card,9844.59,496.82,2,4,Laptop & Accessory,65,2,7,3,3,0,156,143,TRUE,Ignored,0
+50968,48,Male,15,Phone,Cash on Delivery,4227.98,127.59,3,3,Mobile,25,5,8,5,4,0,241,121,FALSE,Responded,0
+50969,34,Male,4,Computer,Debit Card,9737.84,261.12,2,3,Fashion,69,3,6,1,3,1,340,201,TRUE,Unsubscribed,0
+50970,45,Male,1,Mobile Phone,Credit Card,3740.69,312.11,2,3,Laptop & Accessory,42,1,5,5,1,0,168,155,FALSE,Ignored,0
+50971,65,Male,10,Mobile Phone,Debit Card,3002.55,484.7,3,3,Laptop & Accessory,35,2,9,5,4,1,249,152,TRUE,Ignored,0
+50972,65,Male,7,Mobile Phone,Credit Card,3231.29,472.46,2,3,Grocery,67,2,4,1,3,1,333,264,FALSE,Unsubscribed,0
+50973,68,Male,4,Phone,COD,7333.72,211.51,2,4,Mobile,9,1,9,5,3,0,224,123,TRUE,Ignored,0
+50974,29,Male,4,Computer,Debit Card,2076.76,64.81,3,3,Laptop & Accessory,36,4,6,2,2,1,242,141,TRUE,Unsubscribed,0
+50975,41,Male,16,Mobile Phone,COD,8654.17,105.09,3,3,Fashion,5,2,2,4,2,0,92,174,FALSE,Responded,0
+50976,32,Female,1,Phone,Debit Card,5946.67,15.01,3,4,Mobile,68,1,1,4,3,0,123,124,TRUE,Unsubscribed,0
+50977,57,Female,7,Mobile Phone,Debit Card,9702.12,10.46,3,4,Laptop & Accessory,37,4,2,5,4,0,63,159,FALSE,Unsubscribed,0
+50978,48,Male,13,Phone,Debit Card,9872.14,390.77,3,3,Mobile,67,4,8,4,1,1,50,126,TRUE,Unsubscribed,0
+50979,44,Female,19,Mobile Phone,Debit Card,1933.3,184.86,3,3,Laptop & Accessory,13,9,8,3,1,0,308,164,FALSE,Unsubscribed,0
+50980,52,Male,6,Phone,Debit Card,9562.24,327.74,3,1,Mobile,64,7,4,3,2,0,78,125,FALSE,Unsubscribed,0
+50981,35,Male,2,Mobile Phone,Debit Card,560.73,286,2,3,Laptop & Accessory,90,3,6,4,1,0,270,164,TRUE,Ignored,0
+50982,53,Male,18,Mobile Phone,Debit Card,375.85,440.83,3,4,Laptop & Accessory,25,2,9,2,4,0,65,197,TRUE,Unsubscribed,1
+50983,25,Male,16,Computer,UPI,9444.26,291.91,3,3,Laptop & Accessory,34,4,9,2,0,0,333,161,FALSE,Responded,0
+50984,63,Male,9,Phone,CC,9627.73,63.97,3,4,Mobile,48,2,2,1,2,0,148,125,FALSE,Unsubscribed,0
+50985,66,Male,10,Mobile Phone,COD,1557.75,440.93,2,3,Fashion,49,4,4,1,1,0,184,193,TRUE,Unsubscribed,0
+50986,55,Female,14,Phone,Debit Card,4479.92,364.16,3,3,Mobile,45,2,4,3,3,1,76,121,TRUE,Unsubscribed,1
+50987,22,Female,17,Mobile Phone,Cash on Delivery,4991.52,160.7,3,4,Fashion,57,1,5,4,0,0,317,202,FALSE,Unsubscribed,1
+50988,31,Male,10,Phone,Credit Card,8616.78,380.14,2,3,Laptop & Accessory,10,5,5,5,4,0,202,149,TRUE,Ignored,1
+50989,55,Male,5,Computer,COD,6316.38,202.66,3,3,Laptop & Accessory,48,5,5,1,4,0,92,141,TRUE,Responded,0
+50990,37,Female,8,Phone,UPI,7768.21,431.91,3,3,Mobile,5,9,7,4,2,0,56,124,TRUE,Unsubscribed,0
+50991,61,Male,6,Phone,CC,4902.46,252.84,,3,Mobile,76,2,3,2,0,0,356,130,TRUE,Ignored,0
+50992,26,Male,8,Mobile Phone,E wallet,6519.3,306.82,2,4,Others,27,2,9,4,1,0,315,296,FALSE,Responded,0
+50993,50,Male,4,Mobile Phone,Debit Card,7380.55,46.12,2,3,Laptop & Accessory,10,10,1,2,2,0,173,155,TRUE,Ignored,0
+50994,35,Female,2,Phone,Debit Card,7405.02,418.46,2,3,Mobile,90,2,0,1,0,0,124,121,TRUE,Responded,0
+50995,23,Male,10,Mobile Phone,Debit Card,117.2,250.92,3,3,Laptop & Accessory,74,1,7,3,4,0,16,199,TRUE,Ignored,0
+50996,54,Female,2,Phone,Debit Card,1089.09,77.75,2,3,Laptop & Accessory,29,3,0,2,3,0,88,142,TRUE,Ignored,0
+50997,19,Female,9,Mobile Phone,Debit Card,3700.24,34.45,3,3,Laptop & Accessory,90,7,6,4,4,0,352,168,FALSE,Responded,0
+50998,47,Male,17,Phone,Credit Card,705.85,187.37,2,3,Mobile Phone,69,2,7,1,3,1,172,147,TRUE,Unsubscribed,0
+50999,23,Female,7,Mobile Phone,Credit Card,3891.6,483.8,2,3,Laptop & Accessory,31,4,1,5,2,1,55,161,FALSE,Responded,0
+51000,34,Male,15,Mobile Phone,Credit Card,3956.71,420.91,2,1,Fashion,48,3,6,1,0,0,269,182,TRUE,Ignored,0
