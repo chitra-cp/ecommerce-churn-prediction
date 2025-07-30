@@ -70,5 +70,5 @@ pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn
 
 ## 👩‍💻 Author
 
-**Chitra Rajalakshmi**  
+**Chitra S**  
 _M.Sc. Data Analytics Graduate_
